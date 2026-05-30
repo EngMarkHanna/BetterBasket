@@ -419,7 +419,20 @@ In order:
 9. **Tightened T7 (cosine ≥ 0.7, k=10)** — 743k T7 candidates, ~6h
    wall clock projected. Killed for further tightening.
 10. **Tightened again (cosine ≥ 0.75, k=5)** — 309k T7 candidates,
-    602k union, 382k routed, ~4h wall clock. Running.
+    602k union, 382k routed. First run had a silent context-build
+    bottleneck (1 embedding API call per A-row group, serial). Killed.
+11. **Patched `RAGContextBuilder.build_many`** to batch-embed all
+    per-pair queries in groups of 100. Drops pre-stage from many
+    hours to ~17 min. Confirmed identical eval-mode output (F1 0.81).
+12. **Full production run completed** — 74,630 LLM batches in 7h
+    10min at 3.0–3.1 req/s with 8 workers. Output:
+    - 18,448 matches (vs System 1's 17,040, +8.3%)
+    - Eval-set precision **1.00**, recall **0.76**, F1 **0.86**
+    - Zero false positives across all 9 eval strata
+    - +4 true positives recovered (2 in `A_private_high`, 1 in
+      `T_strong_tfidf`, 1 in `T_weak_tfidf`)
+    - `H_hand` stratum still 0/3 — long-tail edge cases that Phase D
+      tools (section 7) would target
 
 ---
 

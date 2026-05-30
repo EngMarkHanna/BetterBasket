@@ -19,13 +19,17 @@ richer semantic + RAG architecture.
 | Judge | gpt-5.4-nano, small rubric, TF-IDF over rules | gpt-5.4-nano, 5-slot RAG context per pair |
 | Knowledge | Inline (10 rules) | 460 versioned JSONL entries |
 | Cost per run | ~$0.65 | ~$8 |
-| Wall clock | ~5h 30min | ~4h |
-| Matches shipped | **17,040** (measured) | ~17k (in progress) |
-| Eval precision | **1.00** | 0.84 (eval-mode) |
-| Eval recall | 0.66 | 0.78 (eval-mode) |
-| Eval F1 | 0.79 | 0.81 (eval-mode) |
+| Wall clock | ~5h 30min | ~7h 10min |
+| Matches shipped | 17,040 | **18,448 (+1,408)** |
+| Eval precision | **1.00** | **1.00** |
+| Eval recall | 0.66 | **0.76 (+0.10)** |
+| Eval F1 | 0.79 | **0.86 (+0.07)** |
 | Read me | [`SYSTEM 1 MVP/README.md`](SYSTEM%201%20MVP/README.md) | [`SYSTEM 2 RAG/README.md`](SYSTEM%202%20RAG/README.md) |
 | Deep design | [`SYSTEM 1 MVP/DEEPDIVE.md`](SYSTEM%201%20MVP/DEEPDIVE.md) | [`SYSTEM 2 RAG/DEEPDIVE.md`](SYSTEM%202%20RAG/DEEPDIVE.md) |
+
+**System 2 strictly dominates System 1** on the deliverable: same
+perfect precision, +10 percentage points of recall, +8% more matches
+shipped, zero false positives across all 9 eval-set strata.
 
 System 2 imports System 1's retrieval, scoring, selection, and
 validation modules via an `importlib` shim so the comparison is

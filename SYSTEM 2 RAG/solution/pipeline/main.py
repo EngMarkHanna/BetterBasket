@@ -358,8 +358,12 @@ def stage_judge(
     cache = JudgmentCache(cache_path)
     builder = RAGContextBuilder(embedder, knowledge, category_bridge=bridge_idx)
 
+    # Phase 1: collect every A-row group + its top-K B candidates.
     K = 5
-    requests: list[JudgeRequest] = []
+    a_ids: list[str] = []
+    a_rows: list[dict] = []
+    b_ids_list: list[list[str]] = []
+    b_rows_list: list[list[dict]] = []
     request_subs: list[pd.DataFrame] = []
     for a_id, sub in routed.groupby("item_id_a"):
         sub_top = sub.sort_values("final_score", ascending=False).head(K).reset_index(drop=True)
@@ -368,20 +372,34 @@ def stage_judge(
             continue
         b_ids = sub_top["item_id_b"].astype(str).tolist()
         b_rows = [b_index.get(bid) or {} for bid in b_ids]
-        ctx = builder.build(a_row, b_rows)
-        requests.append(
-            JudgeRequest(
-                a_id=str(a_id),
-                a_row=a_row,
-                b_ids=b_ids,
-                b_rows=b_rows,
-                extra_context_text=ctx.as_prompt_block(),
-                context_signature=ctx.cache_signature(),
-            )
-        )
+        a_ids.append(str(a_id))
+        a_rows.append(a_row)
+        b_ids_list.append(b_ids)
+        b_rows_list.append(b_rows)
         request_subs.append(sub_top)
 
-    print(f"  {len(requests)} LLM batches (K=5)")
+    n_groups = len(a_ids)
+    print(f"  {n_groups} LLM batches (K=5)")
+
+    # Phase 2: batch-embed ALL per-group RAG context queries up front.
+    # This replaces the silent per-call serial embedding bottleneck.
+    print(f"  [context] batch-embedding {n_groups} RAG queries ...")
+    contexts = builder.build_many(list(zip(a_rows, b_rows_list)))
+
+    # Phase 3: assemble the judge requests with their pre-built contexts.
+    requests: list[JudgeRequest] = [
+        JudgeRequest(
+            a_id=a_ids[i],
+            a_row=a_rows[i],
+            b_ids=b_ids_list[i],
+            b_rows=b_rows_list[i],
+            extra_context_text=contexts[i].as_prompt_block(),
+            context_signature=contexts[i].cache_signature(),
+        )
+        for i in range(n_groups)
+    ]
+
+    # Phase 4: run the LLM judge with thread-pool concurrency.
     judge = RAGJudge(client, model, cache, version=DEFAULT_CACHE_VERSION)
     results = judge.judge_many(requests, workers=workers)
 

@@ -132,14 +132,75 @@ class RAGContextBuilder:
 
         Returns an empty RAGContext if no signals fired (still safe to
         pass to the judge).
-        """
-        ctx = RAGContext()
 
-        # Query text used for rule + example retrieval. We bias it toward
-        # the *decision point*: name + brands + sizes.
+        Single-pair path: embeds the query for this pair on its own.
+        For bulk workloads use `build_many` to amortize embedding HTTP
+        round-trips across many pairs.
+        """
         query_text = self._build_query_text(a_row, b_rows)
+        q_vec = None
         if query_text:
             q_vec = self._embedder.embed_batch([query_text])[0]
+        return self._build_with_query_vector(a_row, b_rows, q_vec)
+
+    def build_many(
+        self,
+        items: list[tuple[dict, list[dict]]],
+        embed_batch_size: int = 100,
+        progress_every: int = 50,
+    ) -> list[RAGContext]:
+        """Bulk path: embed all per-pair queries in groups, then assemble.
+
+        The serial single-call pattern in `build` was the silent
+        bottleneck of the full pipeline (one embedding HTTP round-trip
+        per A-row group). Batching by 100 cuts wall clock by ~Bx where
+        B is the per-call overhead vs per-text cost ratio.
+        """
+        import time
+
+        # 1. Compute query texts for all groups (deterministic, no API).
+        query_texts: list[str] = []
+        for a_row, b_rows in items:
+            query_texts.append(self._build_query_text(a_row, b_rows))
+
+        # 2. Embed in batches. Skip empty queries (those get no q_vec).
+        n = len(query_texts)
+        vectors: list[np.ndarray | None] = [None] * n
+        # Group indices that need embedding.
+        to_embed_idx = [i for i, t in enumerate(query_texts) if t]
+        t0 = time.time()
+        for start in range(0, len(to_embed_idx), embed_batch_size):
+            chunk = to_embed_idx[start : start + embed_batch_size]
+            chunk_texts = [query_texts[i] for i in chunk]
+            vecs = self._embedder.embed_batch(chunk_texts)
+            for local, global_i in enumerate(chunk):
+                vectors[global_i] = vecs[local]
+            done = start + len(chunk)
+            if (done // embed_batch_size) % progress_every == 0:
+                elapsed = time.time() - t0
+                rate = done / elapsed if elapsed > 0 else 0.0
+                eta_s = (len(to_embed_idx) - done) / rate if rate > 0 else 0
+                print(
+                    f"    [context] embedded {done}/{len(to_embed_idx)} "
+                    f"queries  {rate:.0f}/s  ETA {eta_s/60:.1f} min"
+                )
+
+        # 3. Assemble contexts with their precomputed query vectors.
+        return [
+            self._build_with_query_vector(a_row, b_rows, vectors[i])
+            for i, (a_row, b_rows) in enumerate(items)
+        ]
+
+    def _build_with_query_vector(
+        self,
+        a_row: dict,
+        b_rows: list[dict],
+        q_vec: np.ndarray | None,
+    ) -> RAGContext:
+        """Shared assembly used by both `build` and `build_many`."""
+        ctx = RAGContext()
+
+        if q_vec is not None:
             ctx.rules = self._knowledge.search(q_vec, k=self._rules_k, entry_type=EntryType.RULE)
             ctx.accepted_examples = self._knowledge.search(
                 q_vec, k=self._accepted_k, entry_type=EntryType.ACCEPTED_EXAMPLE

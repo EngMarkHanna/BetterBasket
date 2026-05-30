@@ -57,24 +57,23 @@ apples-to-apples.
 
 ---
 
-## Measured/projected results
+## Measured results
 
-Projected for the upcoming full run. Eval-mode gate runs first to
-verify Phase C lift before committing.
-
-| Metric | System 1 (measured) | System 2 (projected) |
+| Metric | System 1 | **System 2 (measured)** |
 |---|---|---|
-| Total matches | 17,040 | ~17–20k |
-| Eval-set precision | 1.00 | ≥ 0.90 target |
-| Eval-set recall | 0.66 | **≥ 0.80 target** |
-| Eval-set F1 | 0.79 | **≥ 0.86 target** |
-| LLM cost | ~$0.65 | ~$1.60 |
-| Wall clock (with `--reuse-system1-candidates`) | n/a | ~5h |
+| Total matches | 17,040 | **18,448** (+1,408, +8.3%) |
+| Eval-set precision | 1.00 | **1.00** (tied perfect) |
+| Eval-set recall | 0.66 | **0.76** (+0.10) |
+| Eval-set F1 | 0.79 | **0.86** (+0.07) |
+| Eval-set FPs (across all 9 strata) | 0 | **0** |
+| LLM cost | $0.65 | ~$8 |
+| LLM batches (K=5) | 56,495 | 74,630 |
+| Wall clock (with `--reuse-system1-candidates`, 8 workers) | n/a | ~7h 10min |
 
-The recall lift target comes from the 13 specific eval positives
-System 1 missed (5 `A_private_high`, 5 `T_strong_tfidf`, 3 `H_hand`).
-Each was diagnosed and the corresponding knowledge entry / context
-slot designed to fix it.
+System 2 strictly dominates: same perfect precision, +10pts recall,
++1,408 more matches, no FP regression on any stratum. The full
+side-by-side with per-stratum breakdown and disagreement examples is
+in [`../FINAL_ANALYSIS.md`](../FINAL_ANALYSIS.md).
 
 ---
 
