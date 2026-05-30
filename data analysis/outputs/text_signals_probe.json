@@ -1,0 +1,59 @@
+{
+  "descriptions": [
+    {
+      "store": "A",
+      "rows_total": 233199,
+      "rows_nonmissing_description": 18908,
+      "coverage": 0.0811,
+      "rows_with_upc_token": 270,
+      "rows_with_size_token": 5123,
+      "rows_with_brand_keyword": 1953,
+      "len_p50": 621,
+      "len_p90": 1407,
+      "len_p99": 2753
+    },
+    {
+      "store": "B",
+      "rows_total": 55516,
+      "rows_nonmissing_description": 51938,
+      "coverage": 0.9356,
+      "rows_with_upc_token": 47,
+      "rows_with_size_token": 15848,
+      "rows_with_brand_keyword": 3366,
+      "len_p50": 143,
+      "len_p90": 873,
+      "len_p99": 1667
+    }
+  ],
+  "upc_overlap": {
+    "a_rows_with_any_upc": 1122,
+    "b_rows_with_any_upc": 366,
+    "unique_a_upcs": 1150,
+    "unique_shared_upcs": 0,
+    "match_pair_rows": 0,
+    "match_unique_item_a": 0,
+    "match_unique_item_b": 0,
+    "examples_csv": "C:\\Users\\Central Intelligence\\Desktop\\BetterBasket\\data analysis\\outputs\\upc_overlap_examples.csv"
+  },
+  "slug_extra_tokens_A": {
+    "sample_rows": 5000,
+    "mean_extra_tokens": 0.937,
+    "p50_extra_tokens": 0.0,
+    "p90_extra_tokens": 3.0,
+    "rows_with_extra_token": 1580
+  },
+  "item_info_extra_fields": {
+    "A": {
+      "storage_type": 0.0596,
+      "packaging_description": 0.0793,
+      "ingredients": 0.0338
+    },
+    "B": {
+      "storage_type": 0.0,
+      "packaging_description": 0.0,
+      "ingredients": 0.5269
+    }
+  },
+  "url_slug_examples_csv": "C:\\Users\\Central Intelligence\\Desktop\\BetterBasket\\data analysis\\outputs\\url_slug_examples.csv",
+  "upc_examples_csv": "C:\\Users\\Central Intelligence\\Desktop\\BetterBasket\\data analysis\\outputs\\upc_overlap_examples.csv"
+}

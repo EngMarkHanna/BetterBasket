@@ -1,0 +1,45 @@
+{
+  "alias_map_size": 20,
+  "alias_applied": {
+    "A_rows": 325,
+    "B_rows": 710
+  },
+  "t1_brand_size_rapidfuzz": {
+    "any": 9990,
+    "score_ge_95": 751,
+    "score_85_95": 7288,
+    "score_70_85": 866,
+    "score_lt_70": 1085
+  },
+  "t3_tfidf_top1": {
+    "cosine_ge_06": 28683,
+    "cosine_ge_06_brand_aligned": 9374,
+    "cosine_ge_06_size_aligned": 11286,
+    "cosine_ge_06_brand_AND_size_aligned": 2845,
+    "cosine_04_06": 55501,
+    "sample_n": 5000,
+    "scale_factor": 46.64,
+    "full_a_rows": 233199,
+    "sample_counts": {
+      "cosine_ge_06": 615,
+      "cosine_ge_06_brand_aligned": 201,
+      "cosine_ge_06_size_aligned": 242,
+      "cosine_ge_06_brand_AND_size_aligned": 61,
+      "cosine_04_06": 1190
+    }
+  },
+  "projection": {
+    "auto_accept_t1_strong_ge_95": 751,
+    "auto_accept_t3_cosine_ge_06_brand_aligned": 9374,
+    "llm_candidates_total": 82964,
+    "llm_accepted_t1_med": 364,
+    "llm_accepted_t1_low": 17,
+    "llm_accepted_t3_brand_unaligned": 2896,
+    "llm_accepted_t3_med": 2775,
+    "llm_accepted_total": 6052,
+    "total_projected_matches": 16177,
+    "target": 4000,
+    "passes_exit_gate": true,
+    "headroom_over_target_pct": 404.4
+  }
+}

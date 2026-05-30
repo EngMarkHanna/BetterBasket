@@ -1,0 +1,28 @@
+{
+  "per_store": {
+    "A": {
+      "rows": 233199,
+      "multipack_indicator_in_name": 67475,
+      "multipack_indicator_in_size_source": 57982,
+      "leading_decimal_in_size_source": 382,
+      "trivial_count1_bucket": 1562,
+      "multipack_unaccounted_in_bucket": 31358,
+      "leading_decimal_unparsed_bucket_empty": 0,
+      "bucket_empty_rows": 97818
+    },
+    "B": {
+      "rows": 55516,
+      "multipack_indicator_in_name": 2449,
+      "multipack_indicator_in_size_source": 6245,
+      "leading_decimal_in_size_source": 0,
+      "trivial_count1_bucket": 39,
+      "multipack_unaccounted_in_bucket": 1891,
+      "leading_decimal_unparsed_bucket_empty": 0,
+      "bucket_empty_rows": 8212
+    }
+  },
+  "brand_alias_candidates": {
+    "rows": 83,
+    "rows_score_ge_95": 77
+  }
+}

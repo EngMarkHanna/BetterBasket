@@ -1,0 +1,33 @@
+{
+  "national_brand_size": {
+    "block_cols": [
+      "brand_norm",
+      "size_bucket"
+    ],
+    "a_rows_with_complete_key": 54686,
+    "a_rows_with_shared_block": 9789,
+    "matches_scored": 9789,
+    "score_gte_95": 723,
+    "score_gte_90": 1228,
+    "score_gte_85": 7866,
+    "score_gte_80": 8195,
+    "score_gte_90_jaccard_gte_0_50": 1015,
+    "score_gte_85_jaccard_gte_0_50": 1779,
+    "score_gte_85_jaccard_gte_0_35": 2782
+  },
+  "private_label_size": {
+    "block_cols": [
+      "size_bucket"
+    ],
+    "a_rows_with_complete_key": 3181,
+    "a_rows_with_shared_block": 2959,
+    "matches_scored": 2959,
+    "score_gte_95": 20,
+    "score_gte_90": 76,
+    "score_gte_85": 2035,
+    "score_gte_80": 2039,
+    "score_gte_90_jaccard_gte_0_50": 30,
+    "score_gte_85_jaccard_gte_0_50": 38,
+    "score_gte_85_jaccard_gte_0_35": 57
+  }
+}

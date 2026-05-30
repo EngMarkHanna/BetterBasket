@@ -1,0 +1,30 @@
+{
+  "vectorizer": {
+    "word_ngram": [
+      1,
+      2
+    ],
+    "char_ngram": [
+      3,
+      5
+    ],
+    "fit_seconds": 71.6,
+    "transform_seconds": 71.59,
+    "feature_dim": 616872
+  },
+  "retrieval": {
+    "sample_a_rows": 2000,
+    "k": 10,
+    "retrieve_seconds": 7.01,
+    "throughput_a_per_sec": 285.2,
+    "estimated_full_run_minutes": 13.6
+  },
+  "quality_at_10": {
+    "brand_match_share": 0.1215,
+    "cat2_match_share": 0.0435,
+    "size_match_share": 0.2195,
+    "strong_cosine_share": 0.527,
+    "top1_score_p50": 0.3138,
+    "top1_score_p90": 0.5977
+  }
+}

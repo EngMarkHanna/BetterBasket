@@ -1,0 +1,276 @@
+{
+  "seed_pair_count": 8195,
+  "score_threshold": 80,
+  "level_coverage": [
+    {
+      "level": "info_category_0",
+      "unique_a_categories_in_full_dataset": 40,
+      "categories_with_at_least_one_seed": 26,
+      "categories_with_support_>=5": 20,
+      "categories_with_top_b_share_>=0.6": 23
+    },
+    {
+      "level": "info_category_1",
+      "unique_a_categories_in_full_dataset": 610,
+      "categories_with_at_least_one_seed": 213,
+      "categories_with_support_>=5": 113,
+      "categories_with_top_b_share_>=0.6": 179
+    },
+    {
+      "level": "info_category_2",
+      "unique_a_categories_in_full_dataset": 2657,
+      "categories_with_at_least_one_seed": 786,
+      "categories_with_support_>=5": 275,
+      "categories_with_top_b_share_>=0.6": 610
+    },
+    {
+      "level": "info_category_3",
+      "unique_a_categories_in_full_dataset": 3563,
+      "categories_with_at_least_one_seed": 1011,
+      "categories_with_support_>=5": 261,
+      "categories_with_top_b_share_>=0.6": 876
+    }
+  ],
+  "examples_cat2_top": [
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": NaN,
+      "support": 664,
+      "b_top1": "Oral Care",
+      "b_top1_share": 0.0873,
+      "b_top2": "Bath & Body",
+      "b_top2_share": 0.0813,
+      "b_top3": "Deodorant & Antiperspirant",
+      "b_top3_share": 0.0512
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Pantry meal essentials",
+      "support": 329,
+      "b_top1": "Latino Foods",
+      "b_top1_share": 0.1277,
+      "b_top2": "Packaged Meals, Sides & Rice",
+      "b_top2_share": 0.0942,
+      "b_top3": "Asian",
+      "b_top3_share": 0.076
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Chocolate",
+      "support": 247,
+      "b_top1": "Seasonal & Holiday Candy",
+      "b_top1_share": 0.4575,
+      "b_top2": "Chocolate",
+      "b_top2_share": 0.2551,
+      "b_top3": "Candy and Gum",
+      "b_top3_share": 0.1215
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Baby Food",
+      "support": 166,
+      "b_top1": "Baby Food & Snacks",
+      "b_top1_share": 1.0,
+      "b_top2": NaN,
+      "b_top2_share": NaN,
+      "b_top3": NaN,
+      "b_top3_share": NaN
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Christmas Candy",
+      "support": 154,
+      "b_top1": "Seasonal & Holiday Candy",
+      "b_top1_share": 0.5909,
+      "b_top2": "Candy and Gum",
+      "b_top2_share": 0.2078,
+      "b_top3": "Chocolate",
+      "b_top3_share": 0.1169
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Valentine's Candy",
+      "support": 153,
+      "b_top1": "Seasonal & Holiday Candy",
+      "b_top1_share": 0.5948,
+      "b_top2": "Chocolate",
+      "b_top2_share": 0.1699,
+      "b_top3": "Candy and Gum",
+      "b_top3_share": 0.1242
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Chips",
+      "support": 143,
+      "b_top1": "Chips",
+      "b_top1_share": 0.3287,
+      "b_top2": "Gluten Free Chips & Snacks",
+      "b_top2_share": 0.1538,
+      "b_top3": "Multipack & On The Go Snacks",
+      "b_top3_share": 0.1259
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Cheese",
+      "support": 128,
+      "b_top1": "Gelatin & Puddings",
+      "b_top1_share": 0.2578,
+      "b_top2": "Block",
+      "b_top2_share": 0.1328,
+      "b_top3": "Cream Cheese",
+      "b_top3_share": 0.0781
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Deodorants",
+      "support": 117,
+      "b_top1": "Deodorant & Antiperspirant",
+      "b_top1_share": 0.9573,
+      "b_top2": "Travel",
+      "b_top2_share": 0.0342,
+      "b_top3": "Hair Care",
+      "b_top3_share": 0.0085
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Easy to Make",
+      "support": 116,
+      "b_top1": "Baking Mixes",
+      "b_top1_share": 0.5862,
+      "b_top2": "Baking Needs",
+      "b_top2_share": 0.2586,
+      "b_top3": "Gelatin & Puddings",
+      "b_top3_share": 0.0431
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Gummy & Chewy Candy",
+      "support": 112,
+      "b_top1": "Fruity Confections",
+      "b_top1_share": 0.4375,
+      "b_top2": "Seasonal & Holiday Candy",
+      "b_top2_share": 0.4196,
+      "b_top3": "Candy and Gum",
+      "b_top3_share": 0.1071
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Tea",
+      "support": 104,
+      "b_top1": "Tea",
+      "b_top1_share": 0.9327,
+      "b_top2": "Tea & Lemonades",
+      "b_top2_share": 0.0288,
+      "b_top3": "Kombucha & Wellness Shots",
+      "b_top3_share": 0.0192
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Soup",
+      "support": 102,
+      "b_top1": "Canned Soup",
+      "b_top1_share": 0.402,
+      "b_top2": "Stocks, Broths & Bouillon",
+      "b_top2_share": 0.2353,
+      "b_top3": "Asian",
+      "b_top3_share": 0.1765
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Cookies",
+      "support": 101,
+      "b_top1": "Cookies",
+      "b_top1_share": 0.7723,
+      "b_top2": "Latino Foods",
+      "b_top2_share": 0.0792,
+      "b_top3": "Protein & Lifestyle Bars",
+      "b_top3_share": 0.0495
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Baking Ingredients",
+      "support": 98,
+      "b_top1": "Sugar & Sweeteners",
+      "b_top1_share": 0.2041,
+      "b_top2": "Sprinkles & Decorations",
+      "b_top2_share": 0.1531,
+      "b_top3": "Spices",
+      "b_top3_share": 0.1531
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Canned goods",
+      "support": 91,
+      "b_top1": "Latino Foods",
+      "b_top1_share": 0.2637,
+      "b_top2": "Canned Meat & Seafood",
+      "b_top2_share": 0.1758,
+      "b_top3": "Canned Tomatoes",
+      "b_top3_share": 0.1648
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Halloween Candy",
+      "support": 90,
+      "b_top1": "Seasonal & Holiday Candy",
+      "b_top1_share": 0.6222,
+      "b_top2": "Chocolate",
+      "b_top2_share": 0.1333,
+      "b_top3": "Candy and Gum",
+      "b_top3_share": 0.1
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Juices",
+      "support": 90,
+      "b_top1": "Bottled Juice",
+      "b_top1_share": 0.3889,
+      "b_top2": "Juice",
+      "b_top2_share": 0.1556,
+      "b_top3": "Tea",
+      "b_top3_share": 0.1222
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Crackers",
+      "support": 88,
+      "b_top1": "Crackers",
+      "b_top1_share": 0.6591,
+      "b_top2": "Multipack & On The Go Snacks",
+      "b_top2_share": 0.0795,
+      "b_top3": "Baby Food & Snacks",
+      "b_top3_share": 0.0568
+    },
+    {
+      "a_level": "a_cat2",
+      "b_level": "b_cat2",
+      "a_category": "Body Wash",
+      "support": 83,
+      "b_top1": "Bath & Body",
+      "b_top1_share": 0.8434,
+      "b_top2": "Hand & Body Lotion",
+      "b_top2_share": 0.0602,
+      "b_top3": "Bath & Toiletries",
+      "b_top3_share": 0.0241
+    }
+  ]
+}

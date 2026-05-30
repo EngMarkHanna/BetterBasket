@@ -1,0 +1,391 @@
+store,field,value,count,share
+A,brand_raw,Mainstays,3487,0.014953
+A,brand_raw,Wonder Nation,1555,0.006668
+A,brand_raw,Carter's Child of Mine,1356,0.005815
+A,brand_raw,Way To Celebrate,1339,0.005742
+A,brand_raw,Better Homes & Gardens,1319,0.005656
+A,brand_raw,Hyper Tough,1096,0.0047
+A,brand_raw,Great Value,1040,0.00446
+A,brand_raw,Hallmark,1028,0.004408
+A,brand_raw,WWE,988,0.004237
+A,brand_raw,Equate,815,0.003495
+A,brand_raw,Garanimals,795,0.003409
+A,brand_raw,Disney,776,0.003328
+A,brand_raw,Monster Jam,770,0.003302
+A,brand_raw,Modern Moments,742,0.003182
+A,brand_raw,Athletic Works,719,0.003083
+A,brand_raw,Avia,715,0.003066
+A,brand_raw,Buffalo Games,702,0.00301
+A,brand_raw,Jada Toys,690,0.002959
+A,brand_raw,Reebok,665,0.002852
+A,brand_raw,Ozark Trail,626,0.002684
+A,brand_raw,Hot Wheels,575,0.002466
+A,brand_raw,Vibrant Life,558,0.002393
+A,brand_raw,Funko,556,0.002384
+A,brand_raw,Freshness Guaranteed,536,0.002298
+A,brand_raw,onn,505,0.002166
+A,brand_norm,mainstays,3487,0.014953
+A,brand_norm,wonder nation,1556,0.006672
+A,brand_norm,carter s child of mine,1356,0.005815
+A,brand_norm,way to celebrate,1339,0.005742
+A,brand_norm,better homes and gardens,1319,0.005656
+A,brand_norm,hyper tough,1096,0.0047
+A,brand_norm,great value,1040,0.00446
+A,brand_norm,hallmark,1028,0.004408
+A,brand_norm,wwe,988,0.004237
+A,brand_norm,equate,815,0.003495
+A,brand_norm,garanimals,795,0.003409
+A,brand_norm,disney,776,0.003328
+A,brand_norm,monster jam,770,0.003302
+A,brand_norm,modern moments,742,0.003182
+A,brand_norm,athletic works,719,0.003083
+A,brand_norm,avia,715,0.003066
+A,brand_norm,buffalo games,702,0.00301
+A,brand_norm,jada toys,690,0.002959
+A,brand_norm,reebok,665,0.002852
+A,brand_norm,ozark trail,626,0.002684
+A,brand_norm,hot wheels,575,0.002466
+A,brand_norm,vibrant life,558,0.002393
+A,brand_norm,funko,557,0.002389
+A,brand_norm,freshness guaranteed,536,0.002298
+A,brand_norm,onn,505,0.002166
+A,info_category_0,Food,73478,0.315087
+A,info_category_0,Health and Medicine,20501,0.087912
+A,info_category_0,Personal Care,15715,0.067389
+A,info_category_0,Household Essentials,14802,0.063474
+A,info_category_0,Toys,14138,0.060626
+A,info_category_0,Pets,13158,0.056424
+A,info_category_0,Baby,12805,0.05491
+A,info_category_0,Clothing,11990,0.051415
+A,info_category_0,Home,9497,0.040725
+A,info_category_0,Beauty,5243,0.022483
+A,info_category_0,Home Improvement,4786,0.020523
+A,info_category_0,Sports & Outdoors,4246,0.018208
+A,info_category_0,Party & Occasions,3375,0.014473
+A,info_category_0,Office Supplies,1872,0.008027
+A,info_category_0,Auto & Tires,1848,0.007925
+A,info_category_0,Electronics,1557,0.006677
+A,info_category_0,Arts Crafts & Sewing,1452,0.006226
+A,info_category_0,Patio & Garden,1159,0.00497
+A,info_category_0,Jewelry,1131,0.00485
+A,info_category_0,Books,903,0.003872
+A,info_category_0,Collectibles,814,0.003491
+A,info_category_0,Premium Beauty,751,0.00322
+A,info_category_0,Seasonal,727,0.003118
+A,info_category_0,Cell Phones,709,0.00304
+A,info_category_0,Movies & TV Shows,539,0.002311
+A,info_category_1,Pantry,16370,0.070198
+A,info_category_1,"Snacks, Cookies & Chips",9804,0.042041
+A,info_category_1,Beverages,7466,0.032016
+A,info_category_1,Kids Clothing,7406,0.031758
+A,info_category_1,Candy,5344,0.022916
+A,info_category_1,Dogs,4878,0.020918
+A,info_category_1,Bath & Body,4760,0.020412
+A,info_category_1,Seasonal Grocery,4722,0.020249
+A,info_category_1,Household Essentials by Brand,3316,0.01422
+A,info_category_1,Baking,3171,0.013598
+A,info_category_1,Smoking Cessation,3148,0.013499
+A,info_category_1,Decor,3119,0.013375
+A,info_category_1,Kitchen & Dining,2974,0.012753
+A,info_category_1,Bakery & Bread,2906,0.012461
+A,info_category_1,Paper & Plastic,2828,0.012127
+A,info_category_1,Outdoor Sports,2619,0.011231
+A,info_category_1,Cleaning Supplies,2493,0.01069
+A,info_category_1,Feeding,2457,0.010536
+A,info_category_1,Action Figures and Playsets,2381,0.01021
+A,info_category_1,Frozen Foods,2242,0.009614
+A,info_category_1,Womens Clothing,2204,0.009451
+A,info_category_1,Dairy & Eggs,2191,0.009395
+A,info_category_1,Home Health Care,2160,0.009262
+A,info_category_1,"Cars, RC, Drones & Trains",2066,0.008859
+A,info_category_1,Cats,2041,0.008752
+A,info_category_2,Baby Clothes,2820,0.012093
+A,info_category_2,Pantry meal essentials,2415,0.010356
+A,info_category_2,Spend Time With Family,2209,0.009473
+A,info_category_2,Chips,2192,0.0094
+A,info_category_2,Action Figures,2009,0.008615
+A,info_category_2,Toddler Clothing,1755,0.007526
+A,info_category_2,Gametime Food,1600,0.006861
+A,info_category_2,Baking Ingredients,1570,0.006732
+A,info_category_2,Boys Clothing,1554,0.006664
+A,info_category_2,Puzzles,1401,0.006008
+A,info_category_2,"Herbs, spices & seasoning mixes",1230,0.005274
+A,info_category_2,Cookies,1177,0.005047
+A,info_category_2,Chocolate,1140,0.004889
+A,info_category_2,Fishing,1100,0.004717
+A,info_category_2,Camping Gear,1078,0.004623
+A,info_category_2,Coffee,1076,0.004614
+A,info_category_2,Juices,1070,0.004588
+A,info_category_2,Canned goods,1030,0.004417
+A,info_category_2,Dog Treats,1011,0.004335
+A,info_category_2,Cleaning Tools,993,0.004258
+A,info_category_2,WWE Toys,983,0.004215
+A,info_category_2,Dining & Entertaining,962,0.004125
+A,info_category_2,Valentine's Day Food,952,0.004082
+A,info_category_2,Laundry Detergents,891,0.003821
+A,info_category_2,Womens Activewear,890,0.003816
+A,info_category_3,Jigsaw Puzzles,2497,0.010708
+A,info_category_3,Action Figure Core,1571,0.006737
+A,info_category_3,Baby Boys Clothing,1301,0.005579
+A,info_category_3,Baby Girls Clothing,1292,0.00554
+A,info_category_3,Toddler Girls (12M-5T) Clothing,1209,0.005184
+A,info_category_3,WWE Action Figures,975,0.004181
+A,info_category_3,Shop All Cookies,688,0.00295
+A,info_category_3,Spin Master Monster Jam,680,0.002916
+A,info_category_3,Game Time Drinks,669,0.002869
+A,info_category_3,Fishing Lures & Baits,634,0.002719
+A,info_category_3,"Frosting, Toppings & Decorations",628,0.002693
+A,info_category_3,Snack Crackers,612,0.002624
+A,info_category_3,All Body Wash,541,0.00232
+A,info_category_3,Chewy and gummy candy,535,0.002294
+A,info_category_3,Potato Chips,512,0.002196
+A,info_category_3,Gym Wear,508,0.002178
+A,info_category_3,Toddler Boys (12M-5T) Clothing,504,0.002161
+A,info_category_3,Backyard Camping,501,0.002148
+A,info_category_3,Hot Wheels Cars,484,0.002075
+A,info_category_3,All Dolls,464,0.00199
+A,info_category_3,Dry pasta,428,0.001835
+A,info_category_3,Shop All Laundry Detergent,422,0.00181
+A,info_category_3,Womens Workout Bottoms,402,0.001724
+A,info_category_3,All Dog Toys,390,0.001672
+A,info_category_3,Adult Dog Food,374,0.001604
+A,sizing_size_user_friendly,One Size,707,0.003032
+A,sizing_size_user_friendly,12 oz,509,0.002183
+A,sizing_size_user_friendly,16 oz,498,0.002136
+A,sizing_size_user_friendly,750 mL,497,0.002131
+A,sizing_size_user_friendly,L,381,0.001634
+A,sizing_size_user_friendly,12 fl oz,360,0.001544
+A,sizing_size_user_friendly,S,352,0.001509
+A,sizing_size_user_friendly,8 oz,349,0.001497
+A,sizing_size_user_friendly,M,340,0.001458
+A,sizing_size_user_friendly,4 oz,293,0.001256
+A,sizing_size_user_friendly,Regular,269,0.001154
+A,sizing_size_user_friendly,1,256,0.001098
+A,sizing_size_user_friendly,10 oz,236,0.001012
+A,sizing_size_user_friendly,5 oz,219,0.000939
+A,sizing_size_user_friendly,16 fl oz,213,0.000913
+A,sizing_size_user_friendly,6 oz,209,0.000896
+A,sizing_size_user_friendly,Standard,197,0.000845
+A,sizing_size_user_friendly,1 gal,194,0.000832
+A,sizing_size_user_friendly,7 oz,183,0.000785
+A,sizing_size_user_friendly,2.5 oz,183,0.000785
+A,sizing_size_user_friendly,3 oz,183,0.000785
+A,sizing_size_user_friendly,3.5 oz,176,0.000755
+A,sizing_size_user_friendly,32 oz,172,0.000738
+A,sizing_size_user_friendly,15 oz,163,0.000699
+A,sizing_size_user_friendly,2 oz,156,0.000669
+A,size_bucket,weight:16,5775,0.024764
+A,size_bucket,weight:12,4630,0.019854
+A,size_bucket,count:2,4620,0.019811
+A,size_bucket,weight:8,3183,0.013649
+A,size_bucket,count:3,3067,0.013152
+A,size_bucket,weight:10,2907,0.012466
+A,size_bucket,weight:4,2833,0.012148
+A,size_bucket,weight:14,2705,0.0116
+A,size_bucket,volume:12,2536,0.010875
+A,size_bucket,weight:32,2368,0.010154
+A,size_bucket,count:4,2346,0.01006
+A,size_bucket,weight:15,1980,0.008491
+A,size_bucket,weight:24,1716,0.007359
+A,size_bucket,volume:16,1712,0.007341
+A,size_bucket,weight:6,1689,0.007243
+A,size_bucket,weight:18,1684,0.007221
+A,size_bucket,weight:5,1670,0.007161
+A,size_bucket,weight:11,1650,0.007076
+A,size_bucket,weight:3,1646,0.007058
+A,size_bucket,volume:25,1598,0.006853
+A,size_bucket,count:1,1562,0.006698
+A,size_bucket,weight:7,1560,0.00669
+A,size_bucket,weight:20,1463,0.006274
+A,size_bucket,count:6,1445,0.006196
+A,size_bucket,weight:3.5,1380,0.005918
+A,is_private_label_inferred,False,226006,0.969155
+A,is_private_label_inferred,True,7193,0.030845
+B,brand_raw,Wegmans,7992,0.143958
+B,brand_raw,TopCare,748,0.013474
+B,brand_raw,L'Oreal Paris,423,0.007619
+B,brand_raw,Maybelline,383,0.006899
+B,brand_raw,Goya,364,0.006557
+B,brand_raw,Caspari,349,0.006286
+B,brand_raw,Revlon,292,0.00526
+B,brand_raw,McCormick,237,0.004269
+B,brand_raw,Hershey's,215,0.003873
+B,brand_raw,Wilton,194,0.003494
+B,brand_raw,Dove,183,0.003296
+B,brand_raw,Essie,174,0.003134
+B,brand_raw,Paper Images,152,0.002738
+B,brand_raw,CoverGirl,145,0.002612
+B,brand_raw,Reese's,140,0.002522
+B,brand_raw,e.l.f.,135,0.002432
+B,brand_raw,Quest,132,0.002378
+B,brand_raw,Lindt,132,0.002378
+B,brand_raw,Manischewitz,131,0.00236
+B,brand_raw,C.R. Gibson,131,0.00236
+B,brand_raw,Pepperidge Farm,121,0.00218
+B,brand_raw,Papyrus,120,0.002162
+B,brand_raw,Chobani,118,0.002126
+B,brand_raw,Campbell's,116,0.002089
+B,brand_raw,Sally Hansen,115,0.002071
+B,brand_norm,wegmans,8050,0.145003
+B,brand_norm,topcare,756,0.013618
+B,brand_norm,l oreal paris,423,0.007619
+B,brand_norm,maybelline,386,0.006953
+B,brand_norm,goya,376,0.006773
+B,brand_norm,caspari,352,0.006341
+B,brand_norm,revlon,301,0.005422
+B,brand_norm,mccormick,237,0.004269
+B,brand_norm,e l f,223,0.004017
+B,brand_norm,hershey s,218,0.003927
+B,brand_norm,wilton,194,0.003494
+B,brand_norm,dove,184,0.003314
+B,brand_norm,essie,175,0.003152
+B,brand_norm,covergirl,153,0.002756
+B,brand_norm,paper images,152,0.002738
+B,brand_norm,reese s,141,0.00254
+B,brand_norm,lindt,140,0.002522
+B,brand_norm,quest,139,0.002504
+B,brand_norm,manischewitz,132,0.002378
+B,brand_norm,c r gibson,131,0.00236
+B,brand_norm,campbell s,127,0.002288
+B,brand_norm,pepperidge farm,126,0.00227
+B,brand_norm,papyrus,120,0.002162
+B,brand_norm,chobani,118,0.002126
+B,brand_norm,polar,116,0.002089
+B,info_category_0,More Departments,19586,0.352799
+B,info_category_0,Grocery,18438,0.33212
+B,info_category_0,"Wine, Beer & Spirits",5040,0.090785
+B,info_category_0,Frozen,3679,0.066269
+B,info_category_0,Dairy,2951,0.053156
+B,info_category_0,Produce & Floral,1739,0.031324
+B,info_category_0,Bakery,1248,0.02248
+B,info_category_0,Meat,959,0.017274
+B,info_category_0,Prepared Foods,669,0.012051
+B,info_category_0,Cheese,645,0.011618
+B,info_category_0,Seafood,562,0.010123
+B,info_category_1,Personal Care and Makeup,7784,0.140212
+B,info_category_1,Health and Wellness,4095,0.073763
+B,info_category_1,Beverages,3469,0.062486
+B,info_category_1,Chips & Snack Foods,2765,0.049805
+B,info_category_1,Wine,2625,0.047284
+B,info_category_1,Beer Shop,2293,0.041303
+B,info_category_1,Candy,1975,0.035575
+B,info_category_1,Pantry,1900,0.034224
+B,info_category_1,Household Essentials,1846,0.033252
+B,info_category_1,International Foods,1843,0.033198
+B,info_category_1,Party Celebrations & Gifts,1802,0.032459
+B,info_category_1,Kitchen and Home,1688,0.030406
+B,info_category_1,Breakfast,1201,0.021633
+B,info_category_1,Ice Cream,1184,0.021327
+B,info_category_1,Baby & Toddler,1117,0.02012
+B,info_category_1,Pet,1114,0.020066
+B,info_category_1,Protein & Snack Bars,1108,0.019958
+B,info_category_1,Baking & Baking Ingredients,968,0.017436
+B,info_category_1,Appetizers & Frozen Meals,773,0.013924
+B,info_category_1,Bulk Foods,725,0.013059
+B,info_category_1,"Milk, Juice and Refrigerated Beverage",678,0.012213
+B,info_category_1,Salad Dressing & Condiments,645,0.011618
+B,info_category_1,Soups & Broths,530,0.009547
+B,info_category_1,Yogurt,521,0.009385
+B,info_category_1,Vegetables,505,0.009096
+B,info_category_2,Makeup & Nail Care,2020,0.036386
+B,info_category_2,Hair Care,1956,0.035233
+B,info_category_2,Seasonal & Holiday Candy,1098,0.019778
+B,info_category_2,Vitamins and Supplements,868,0.015635
+B,info_category_2,Active & Sport Nutrition,821,0.014789
+B,info_category_2,Cookies,735,0.013239
+B,info_category_2,Coffee & Creamers,689,0.012411
+B,info_category_2,California,668,0.012033
+B,info_category_2,Facial Skin Care,658,0.011852
+B,info_category_2,Latino Foods,655,0.011798
+B,info_category_2,Candy and Gum,650,0.011708
+B,info_category_2,Asian,649,0.01169
+B,info_category_2,Seasonal Party Supplies,649,0.01169
+B,info_category_2,Protein & Lifestyle Bars,614,0.01106
+B,info_category_2,Dog,602,0.010844
+B,info_category_2,France,599,0.01079
+B,info_category_2,Bath & Body,553,0.009961
+B,info_category_2,Tea,548,0.009871
+B,info_category_2,Spices,530,0.009547
+B,info_category_2,Dinners & Entrees,509,0.009169
+B,info_category_2,Novelties,508,0.009151
+B,info_category_2,Chocolate,506,0.009114
+B,info_category_2,Soda & Pop,505,0.009096
+B,info_category_2,Sports & Energy Drinks,504,0.009078
+B,info_category_2,Oral Care,495,0.008916
+B,info_category_3,Shampoo & Conditioner,770,0.01387
+B,info_category_3,Face,605,0.010898
+B,info_category_3,Cookies,597,0.010754
+B,info_category_3,Ice Cream,493,0.00888
+B,info_category_3,Spices,463,0.00834
+B,info_category_3,Lips,463,0.00834
+B,info_category_3,Single Serve,409,0.007367
+B,info_category_3,Nail Color & Treatment,396,0.007133
+B,info_category_3,Ready To Drink,347,0.00625
+B,info_category_3,IC Novelties,347,0.00625
+B,info_category_3,Textured Hair Care,330,0.005944
+B,info_category_3,Styling Products,310,0.005584
+B,info_category_3,Lotions & Creams,291,0.005242
+B,info_category_3,Hair Color,280,0.005044
+B,info_category_3,Red Bordeaux Wines,277,0.00499
+B,info_category_3,Treats & Chews,270,0.004863
+B,info_category_3,Eyes,266,0.004791
+B,info_category_3,Energy,251,0.004521
+B,info_category_3,Cleaning Supplies,235,0.004233
+B,info_category_3,Moisturizers,234,0.004215
+B,info_category_3,Body Wash & Shower Gel,230,0.004143
+B,info_category_3,Sports Drinks,222,0.003999
+B,info_category_3,Premium,215,0.003873
+B,info_category_3,Herbal Tea,212,0.003819
+B,info_category_3,Solids and Sticks,211,0.003801
+B,sizing_size_user_friendly,1 each,4211,0.075852
+B,sizing_size_user_friendly,750 ml.,2175,0.039178
+B,sizing_size_user_friendly,16 ounce,1483,0.026713
+B,sizing_size_user_friendly,12 ounce,1255,0.022606
+B,sizing_size_user_friendly,8 ounce,1248,0.02248
+B,sizing_size_user_friendly,10 ounce,890,0.016031
+B,sizing_size_user_friendly,12 fl. oz.,831,0.014969
+B,sizing_size_user_friendly,72 fl. oz.,744,0.013402
+B,sizing_size_user_friendly,4 ounce,682,0.012285
+B,sizing_size_user_friendly,6 ounce,680,0.012249
+B,sizing_size_user_friendly,7 ounce,617,0.011114
+B,sizing_size_user_friendly,144 fl. oz.,610,0.010988
+B,sizing_size_user_friendly,5 ounce,585,0.010538
+B,sizing_size_user_friendly,16 fl. oz.,584,0.010519
+B,sizing_size_user_friendly,64 fl. oz.,560,0.010087
+B,sizing_size_user_friendly,9 ounce,508,0.009151
+B,sizing_size_user_friendly,20 ct.,488,0.00879
+B,sizing_size_user_friendly,14 ounce,478,0.00861
+B,sizing_size_user_friendly,24 ounce,469,0.008448
+B,sizing_size_user_friendly,15 ounce,448,0.00807
+B,sizing_size_user_friendly,48 fl. oz.,435,0.007836
+B,sizing_size_user_friendly,1 fl. oz.,419,0.007547
+B,sizing_size_user_friendly,32 fl. oz.,413,0.007439
+B,sizing_size_user_friendly,3 ounce,400,0.007205
+B,sizing_size_user_friendly,32 ounce,387,0.006971
+B,size_bucket,volume:25,2376,0.042798
+B,size_bucket,weight:16,1916,0.034513
+B,size_bucket,weight:12,1652,0.029757
+B,size_bucket,weight:8,1251,0.022534
+B,size_bucket,weight:10,1223,0.02203
+B,size_bucket,volume:12,935,0.016842
+B,size_bucket,weight:14,921,0.01659
+B,size_bucket,volume:72,775,0.01396
+B,size_bucket,volume:144,749,0.013492
+B,size_bucket,weight:4,693,0.012483
+B,size_bucket,weight:6,688,0.012393
+B,size_bucket,weight:7,677,0.012195
+B,size_bucket,volume:16,651,0.011726
+B,size_bucket,weight:11,649,0.01169
+B,size_bucket,weight:15,620,0.011168
+B,size_bucket,weight:5,591,0.010646
+B,size_bucket,weight:18,580,0.010447
+B,size_bucket,weight:24,568,0.010231
+B,size_bucket,volume:64,564,0.010159
+B,size_bucket,weight:32,510,0.009187
+B,size_bucket,weight:9,510,0.009187
+B,size_bucket,count:20,489,0.008808
+B,size_bucket,weight:13,483,0.0087
+B,size_bucket,volume:48,466,0.008394
+B,size_bucket,volume:1,426,0.007673
+B,is_private_label_inferred,False,47452,0.854745
+B,is_private_label_inferred,True,8064,0.145255

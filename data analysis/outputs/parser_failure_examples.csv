@@ -1,0 +1,61 @@
+store,issue,item_id,name,size_user_friendly,size_raw,current_bucket
+A,multipack_unaccounted,2082995,"(2 pack) Great Value Export Soda Crackers, 18oz Box",,,weight:18
+A,multipack_unaccounted,2055793,"(4 pack) Welch's Fruitfuls Berry Medley Soft Fruit Strips, .5 oz (10 pack)",,,weight:5
+A,multipack_unaccounted,1949050,"(8 pack) Great Value Sweetened Dried Cherries, 5 oz",,,weight:5
+A,multipack_unaccounted,2066419,"(2 pack) Goodie Girl S’Mores Sandwich Cookies, Shelf Stable, 10.6 oz, 24 Cookies Per Pack, Great for Snacking",,,weight:11
+A,multipack_unaccounted,2200960,"(2 pack) The Elf on the Shelf Mini Gingerbread House Kit, 7 oz",7 oz,,weight:7
+A,multipack_unaccounted,2082782,(12 pack) NERDS Grape & Strawberry Candy 1.65oz Box,,,weight:1.6
+A,multipack_unaccounted,2231327,"Astrobrights 5-Color Printer Paper, 8.5""x11"", Bright Assortment 24 lb/89 Gsm, 100 Count",,,weight:384
+A,multipack_unaccounted,2193913,"Freshness Guaranteed Valentine's Day Mini Vanilla and Chocolate Cupcakes, 10 oz Carton, 12 Count",10 oz,,weight:10
+A,multipack_unaccounted,2262557,"(2 pack) Ol' Roy High Protein with Red Meat Dry Dog Food, 15 lb Bag",15 lbs,,weight:240
+A,multipack_unaccounted,2230667,"Pennington Premium Nature's Heat Wood Fuel Pellets, for Pellet Stoves, 40 Pound Bag, 1 Pack",,,weight:640
+A,multipack_unaccounted,2231491,"Pro Breeze Mini Portable Dehumidifier, 17oz Ultra Quiet Compact Peltier Dehumidifier, 215 Sqft 1pack",,,weight:17
+A,multipack_unaccounted,2199921,"(2 pack) Lakanto Golden Monk Fruit Sweetener - Raw Cane Sugar Substitute, Zero Calorie, Keto Friendly, 8.29 oz",,,weight:8.3
+A,multipack_unaccounted,2231539,"Enviro-Log Sustainably Made Firelogs - 5lbs 3 Hour (1000562), 6 Pack",,,weight:80
+A,multipack_unaccounted,2082638,"(3 pack) Sensible Portions Garden Veggie Snack Sour Cream & Onion Potato Chips, 5 oz Canister",,,weight:5
+A,multipack_unaccounted,2230225,"(3 pack) HTH Spa Care Clear Chlorinating Sanitizer for Spa & Hot Tubs, Granules, Chlorine Pool Chemicals, 2.25 lbs",2.25 lbs,,weight:36
+A,trivial_count1_bucket,2214583,"(1 pack) GE LED Light Bulbs, 60 Watt, Soft White, CA11 Bulbs, Small Base, 13yr, 4pk",,,count:1
+A,trivial_count1_bucket,2236165,"Great Value F107 Refrigerator Filter, GE MWF Compatible, BPA-Free, White Color, 1 Pack, Assembled Product Dimensions: 3.15"" Height, 5.12"" Width, 3.15"" Length",,,count:1
+A,trivial_count1_bucket,2210685,SAMSUNG Genuine HAF-QIN Refrigerator Water Filter (DA29-17376B) - 1 Pack,,,count:1
+A,trivial_count1_bucket,2211082,"Apple AirTag (1st Generation)  1 Pack Item Tracker with Apple Find My, Bluetooth Key, Wallet & Luggage Finder, One-Tap iPhone/iPad Setup",,,count:1
+A,trivial_count1_bucket,2213705,"Hello Hobby Multicolor Goose Feathers, 4.75"" x 0.52"" x 8.75"", 1 Pack",,,count:1
+A,trivial_count1_bucket,2236176,"Great Value GE MWF, Smartwater, MWFA, MWFP, GWF, GWFA, Kenmore 999146, 9991, 469991 Refrigerator Water Filter Replacement, 1 Pack",,,count:1
+A,trivial_count1_bucket,2208684,"NYX Professional Makeup Epic Wear Liner Sticks, Long-Lasting Waterproof Eyeliner Pencil, Pitch Black, 1 Count",,,count:1
+A,trivial_count1_bucket,2272349,"Equate Gel Bunion Wrap, One Size Fits Most, 1 Count",,,count:1
+A,trivial_count1_bucket,2756327,"Mrs. Meyer's Liquid Hand Soap Variety, 1 Basil Refill, 1 Basil Hand Soap, 1 CT",,,count:1
+A,trivial_count1_bucket,2232889,"Oregon H78 Saw Chain for 20"" Bar - 78 Drive Links (1 Pack)",,,count:1
+A,trivial_count1_bucket,2232963,"Oregon S56 Micro Chisel Saw Chain for 16"" Bar  56 Drive Links (1 Pack)",,,count:1
+A,trivial_count1_bucket,2233015,"Oregon R52 Saw Chain for 14"" Bar -52 Drive Links (1 Pack)",,,count:1
+A,trivial_count1_bucket,2385925,"Soft Scrub 4-in-1 Rim Hanger Automatic Toilet Bowl Cleaner, Sapphire Waters, 1 Count - 6 Pack",,,count:1
+A,trivial_count1_bucket,2233436,"Oregon R45 Saw Chain for 12"" Bar - 45 Drive Links (1Pack); New",,,count:1
+A,trivial_count1_bucket,2064414,"Repel Realm Zone Mosquito Repellent Device, Rechargeable Outdoor Diffuser, 1 Count",,,count:1
+B,multipack_unaccounted,94817,"Jimmy Dean Croissant Breakfast Sandwiches with Sausage, Egg, and Cheese, Frozen, 4 Count",18 ounce,,weight:18
+B,multipack_unaccounted,93485,"Jimmy Dean Croissant Breakfast Sandwiches with Sausage, Egg, and Cheese, Frozen, 8 Count",36 ounce,,weight:36
+B,multipack_unaccounted,2682237,"Entenmann's Blueberry Mini Muffins, 5 packs, 7.5 oz",7.5 ounce,,weight:7.5
+B,multipack_unaccounted,2682250,"Breathsavers Peppermint Mints, 8 Pack",6 ounce,,weight:6
+B,multipack_unaccounted,104667,"Dr Pepper Dr Pepper Soda, 12 Pack",12 x 12 fl. oz.,,volume:144
+B,multipack_unaccounted,96214,"AriZona Half & Half, Iced Tea, Lemonade, Lite, 12 Pack",12 x 11.5 fl. oz.,,volume:138
+B,multipack_unaccounted,96567,"Dr Pepper Soda, Diet, 12 Pack",12 x 12 fl. oz.,,volume:144
+B,multipack_unaccounted,1090133,"Ghost Energy Drink, Sour Patch Kids Redberry, 12 Pack",12 x 16 fl. oz.,,volume:192
+B,multipack_unaccounted,1089643,"Ghost Energy Drink, Zero Sugar, Cherry Limeade, 12 Pack",12 x 16 fl. oz.,,volume:192
+B,multipack_unaccounted,2682322,"Red Bull The Winter Edition Energy Drink, Iced Vanilla Berry, 4 Pack",48 fl. oz.,,volume:48
+B,multipack_unaccounted,96338,"Essentia Purified Water, 6 Pack",6 x 33.8 fl. oz.,,volume:203
+B,multipack_unaccounted,99933,Fever-Tree Sparkling Sicilian Lemonade 4x200ml,27.2 fl. oz.,,volume:27
+B,multipack_unaccounted,2682342,"Wegmans Wild Raw P&D Shrimp 21/30ct, FAMILY PACK",24 ounce,,weight:24
+B,multipack_unaccounted,109752,"CELSIUS Sparkling Peach Vibe, Functional Energy Drink, 12 Pack",144 fl. oz.,,volume:144
+B,multipack_unaccounted,87848,"Wegmans Chicken Breast Cutlets, Perfect Portion, 8 Pack, FAMILY PACK",48 ounce,,weight:48
+B,trivial_count1_bucket,1722445,Papy toothpk #0 cndle,1 ct.,,count:1
+B,trivial_count1_bucket,2684914,Odor-Eaters Enhanced Comfort 4-Layer Insoles,1 ct.,,count:1
+B,trivial_count1_bucket,2685204,"Creative Converting Award Ribbon, Birthday Girl",1 ct.,,count:1
+B,trivial_count1_bucket,2685445,"Chef Select Tongs, 12 Inch",1 ct.,,count:1
+B,trivial_count1_bucket,101349,Wegmans Organic Mini Peanut Butter Sandwich Crackers,1 ct.,,count:1
+B,trivial_count1_bucket,956800,Papyrus Birthday Candle Number 9,1 ct.,,count:1
+B,trivial_count1_bucket,956607,Papyrus Birthday Candle Number 1,1 ct.,,count:1
+B,trivial_count1_bucket,956799,Papyrus Birthday Candle Number 2,1 ct.,,count:1
+B,trivial_count1_bucket,956606,"Papyrus Birthday Candle Number 1, Gold",1 ct.,,count:1
+B,trivial_count1_bucket,1892648,Papy toothpk #8 gld cndle,1 ct.,,count:1
+B,trivial_count1_bucket,1884013,"Creative Converting Table Cover, Plastic, Sprinkles AOP",1 ct.,,count:1
+B,trivial_count1_bucket,1892649,Papy toothpk #7 gld cndle,1 ct.,,count:1
+B,trivial_count1_bucket,956804,Papyrus Birthday Candle Number 5,1 ct.,,count:1
+B,trivial_count1_bucket,953692,Audubon Park Suet Basket Feeder,1 ct.,,count:1
+B,trivial_count1_bucket,1892651,Papy toothpk #5 gld cndle,1 ct.,,count:1

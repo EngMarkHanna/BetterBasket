@@ -1,0 +1,2849 @@
+{
+  "stores": {
+    "A": {
+      "rows": 233199,
+      "columns": 19,
+      "column_names": [
+        "item_id",
+        "name",
+        "brand_raw",
+        "name_clean",
+        "description",
+        "category",
+        "department",
+        "url",
+        "item_type",
+        "item_info",
+        "tags",
+        "subcategory",
+        "is_private_label",
+        "sizing_comp",
+        "size_raw",
+        "datapoint_id",
+        "raw_data_id",
+        "created_at_utc",
+        "updated_at_utc"
+      ],
+      "unique_item_id": 233198,
+      "duplicate_item_id_rows": 1,
+      "unique_name": 221102,
+      "unique_name_clean": 0,
+      "normalized_brand_count": 126232,
+      "inferred_private_label_rows": 7193,
+      "nonmissing_rates": {
+        "brand_raw": 0.541319,
+        "name_clean": 0.0,
+        "description": 0.081081,
+        "info_category_0": 0.94024,
+        "info_category_1": 0.939404,
+        "info_category_2": 0.787439,
+        "info_category_3": 0.472746,
+        "sizing_size_user_friendly": 0.17052,
+        "size_bucket": 0.580539,
+        "url": 0.999979
+      },
+      "text_lengths": {
+        "name": {
+          "mean": 77.58,
+          "p50": 73.0,
+          "p90": 118.0,
+          "p99": 190.0
+        },
+        "description": {
+          "mean": 730.41,
+          "p50": 621.0,
+          "p90": 1407.0,
+          "p99": 2753.0
+        }
+      }
+    },
+    "B": {
+      "rows": 55516,
+      "columns": 18,
+      "column_names": [
+        "item_id",
+        "name",
+        "brand_raw",
+        "name_clean",
+        "description",
+        "category",
+        "department",
+        "url",
+        "is_organic",
+        "item_info",
+        "tags",
+        "subcategory",
+        "sizing_comp",
+        "size_raw",
+        "datapoint_id",
+        "raw_data_id",
+        "created_at_utc",
+        "updated_at_utc"
+      ],
+      "unique_item_id": 55516,
+      "duplicate_item_id_rows": 0,
+      "unique_name": 52294,
+      "unique_name_clean": 0,
+      "normalized_brand_count": 49965,
+      "inferred_private_label_rows": 8064,
+      "nonmissing_rates": {
+        "brand_raw": 0.900011,
+        "name_clean": 0.0,
+        "description": 0.93555,
+        "info_category_0": 1.0,
+        "info_category_1": 1.0,
+        "info_category_2": 0.977988,
+        "info_category_3": 0.503531,
+        "sizing_size_user_friendly": 0.956301,
+        "size_bucket": 0.852079,
+        "url": 1.0
+      },
+      "text_lengths": {
+        "name": {
+          "mean": 44.96,
+          "p50": 43.0,
+          "p90": 67.0,
+          "p99": 93.0
+        },
+        "description": {
+          "mean": 311.86,
+          "p50": 143.0,
+          "p90": 873.3,
+          "p99": 1667.63
+        }
+      }
+    }
+  },
+  "top_values": [
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Mainstays",
+      "count": 3487,
+      "share": 0.014953
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Wonder Nation",
+      "count": 1555,
+      "share": 0.006668
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Carter's Child of Mine",
+      "count": 1356,
+      "share": 0.005815
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Way To Celebrate",
+      "count": 1339,
+      "share": 0.005742
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Better Homes & Gardens",
+      "count": 1319,
+      "share": 0.005656
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Hyper Tough",
+      "count": 1096,
+      "share": 0.0047
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Great Value",
+      "count": 1040,
+      "share": 0.00446
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Hallmark",
+      "count": 1028,
+      "share": 0.004408
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "WWE",
+      "count": 988,
+      "share": 0.004237
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Equate",
+      "count": 815,
+      "share": 0.003495
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Garanimals",
+      "count": 795,
+      "share": 0.003409
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Disney",
+      "count": 776,
+      "share": 0.003328
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Monster Jam",
+      "count": 770,
+      "share": 0.003302
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Modern Moments",
+      "count": 742,
+      "share": 0.003182
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Athletic Works",
+      "count": 719,
+      "share": 0.003083
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Avia",
+      "count": 715,
+      "share": 0.003066
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Buffalo Games",
+      "count": 702,
+      "share": 0.00301
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Jada Toys",
+      "count": 690,
+      "share": 0.002959
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Reebok",
+      "count": 665,
+      "share": 0.002852
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Ozark Trail",
+      "count": 626,
+      "share": 0.002684
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Hot Wheels",
+      "count": 575,
+      "share": 0.002466
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Vibrant Life",
+      "count": 558,
+      "share": 0.002393
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Funko",
+      "count": 556,
+      "share": 0.002384
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "Freshness Guaranteed",
+      "count": 536,
+      "share": 0.002298
+    },
+    {
+      "store": "A",
+      "field": "brand_raw",
+      "value": "onn",
+      "count": 505,
+      "share": 0.002166
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "mainstays",
+      "count": 3487,
+      "share": 0.014953
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "wonder nation",
+      "count": 1556,
+      "share": 0.006672
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "carter s child of mine",
+      "count": 1356,
+      "share": 0.005815
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "way to celebrate",
+      "count": 1339,
+      "share": 0.005742
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "better homes and gardens",
+      "count": 1319,
+      "share": 0.005656
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "hyper tough",
+      "count": 1096,
+      "share": 0.0047
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "great value",
+      "count": 1040,
+      "share": 0.00446
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "hallmark",
+      "count": 1028,
+      "share": 0.004408
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "wwe",
+      "count": 988,
+      "share": 0.004237
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "equate",
+      "count": 815,
+      "share": 0.003495
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "garanimals",
+      "count": 795,
+      "share": 0.003409
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "disney",
+      "count": 776,
+      "share": 0.003328
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "monster jam",
+      "count": 770,
+      "share": 0.003302
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "modern moments",
+      "count": 742,
+      "share": 0.003182
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "athletic works",
+      "count": 719,
+      "share": 0.003083
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "avia",
+      "count": 715,
+      "share": 0.003066
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "buffalo games",
+      "count": 702,
+      "share": 0.00301
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "jada toys",
+      "count": 690,
+      "share": 0.002959
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "reebok",
+      "count": 665,
+      "share": 0.002852
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "ozark trail",
+      "count": 626,
+      "share": 0.002684
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "hot wheels",
+      "count": 575,
+      "share": 0.002466
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "vibrant life",
+      "count": 558,
+      "share": 0.002393
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "funko",
+      "count": 557,
+      "share": 0.002389
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "freshness guaranteed",
+      "count": 536,
+      "share": 0.002298
+    },
+    {
+      "store": "A",
+      "field": "brand_norm",
+      "value": "onn",
+      "count": 505,
+      "share": 0.002166
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Food",
+      "count": 73478,
+      "share": 0.315087
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Health and Medicine",
+      "count": 20501,
+      "share": 0.087912
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Personal Care",
+      "count": 15715,
+      "share": 0.067389
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Household Essentials",
+      "count": 14802,
+      "share": 0.063474
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Toys",
+      "count": 14138,
+      "share": 0.060626
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Pets",
+      "count": 13158,
+      "share": 0.056424
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Baby",
+      "count": 12805,
+      "share": 0.05491
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Clothing",
+      "count": 11990,
+      "share": 0.051415
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Home",
+      "count": 9497,
+      "share": 0.040725
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Beauty",
+      "count": 5243,
+      "share": 0.022483
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Home Improvement",
+      "count": 4786,
+      "share": 0.020523
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Sports & Outdoors",
+      "count": 4246,
+      "share": 0.018208
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Party & Occasions",
+      "count": 3375,
+      "share": 0.014473
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Office Supplies",
+      "count": 1872,
+      "share": 0.008027
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Auto & Tires",
+      "count": 1848,
+      "share": 0.007925
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Electronics",
+      "count": 1557,
+      "share": 0.006677
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Arts Crafts & Sewing",
+      "count": 1452,
+      "share": 0.006226
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Patio & Garden",
+      "count": 1159,
+      "share": 0.00497
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Jewelry",
+      "count": 1131,
+      "share": 0.00485
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Books",
+      "count": 903,
+      "share": 0.003872
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Collectibles",
+      "count": 814,
+      "share": 0.003491
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Premium Beauty",
+      "count": 751,
+      "share": 0.00322
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Seasonal",
+      "count": 727,
+      "share": 0.003118
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Cell Phones",
+      "count": 709,
+      "share": 0.00304
+    },
+    {
+      "store": "A",
+      "field": "info_category_0",
+      "value": "Movies & TV Shows",
+      "count": 539,
+      "share": 0.002311
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Pantry",
+      "count": 16370,
+      "share": 0.070198
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Snacks, Cookies & Chips",
+      "count": 9804,
+      "share": 0.042041
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Beverages",
+      "count": 7466,
+      "share": 0.032016
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Kids Clothing",
+      "count": 7406,
+      "share": 0.031758
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Candy",
+      "count": 5344,
+      "share": 0.022916
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Dogs",
+      "count": 4878,
+      "share": 0.020918
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Bath & Body",
+      "count": 4760,
+      "share": 0.020412
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Seasonal Grocery",
+      "count": 4722,
+      "share": 0.020249
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Household Essentials by Brand",
+      "count": 3316,
+      "share": 0.01422
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Baking",
+      "count": 3171,
+      "share": 0.013598
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Smoking Cessation",
+      "count": 3148,
+      "share": 0.013499
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Decor",
+      "count": 3119,
+      "share": 0.013375
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Kitchen & Dining",
+      "count": 2974,
+      "share": 0.012753
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Bakery & Bread",
+      "count": 2906,
+      "share": 0.012461
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Paper & Plastic",
+      "count": 2828,
+      "share": 0.012127
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Outdoor Sports",
+      "count": 2619,
+      "share": 0.011231
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Cleaning Supplies",
+      "count": 2493,
+      "share": 0.01069
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Feeding",
+      "count": 2457,
+      "share": 0.010536
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Action Figures and Playsets",
+      "count": 2381,
+      "share": 0.01021
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Frozen Foods",
+      "count": 2242,
+      "share": 0.009614
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Womens Clothing",
+      "count": 2204,
+      "share": 0.009451
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Dairy & Eggs",
+      "count": 2191,
+      "share": 0.009395
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Home Health Care",
+      "count": 2160,
+      "share": 0.009262
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Cars, RC, Drones & Trains",
+      "count": 2066,
+      "share": 0.008859
+    },
+    {
+      "store": "A",
+      "field": "info_category_1",
+      "value": "Cats",
+      "count": 2041,
+      "share": 0.008752
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Baby Clothes",
+      "count": 2820,
+      "share": 0.012093
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Pantry meal essentials",
+      "count": 2415,
+      "share": 0.010356
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Spend Time With Family",
+      "count": 2209,
+      "share": 0.009473
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Chips",
+      "count": 2192,
+      "share": 0.0094
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Action Figures",
+      "count": 2009,
+      "share": 0.008615
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Toddler Clothing",
+      "count": 1755,
+      "share": 0.007526
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Gametime Food",
+      "count": 1600,
+      "share": 0.006861
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Baking Ingredients",
+      "count": 1570,
+      "share": 0.006732
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Boys Clothing",
+      "count": 1554,
+      "share": 0.006664
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Puzzles",
+      "count": 1401,
+      "share": 0.006008
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Herbs, spices & seasoning mixes",
+      "count": 1230,
+      "share": 0.005274
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Cookies",
+      "count": 1177,
+      "share": 0.005047
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Chocolate",
+      "count": 1140,
+      "share": 0.004889
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Fishing",
+      "count": 1100,
+      "share": 0.004717
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Camping Gear",
+      "count": 1078,
+      "share": 0.004623
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Coffee",
+      "count": 1076,
+      "share": 0.004614
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Juices",
+      "count": 1070,
+      "share": 0.004588
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Canned goods",
+      "count": 1030,
+      "share": 0.004417
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Dog Treats",
+      "count": 1011,
+      "share": 0.004335
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Cleaning Tools",
+      "count": 993,
+      "share": 0.004258
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "WWE Toys",
+      "count": 983,
+      "share": 0.004215
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Dining & Entertaining",
+      "count": 962,
+      "share": 0.004125
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Valentine's Day Food",
+      "count": 952,
+      "share": 0.004082
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Laundry Detergents",
+      "count": 891,
+      "share": 0.003821
+    },
+    {
+      "store": "A",
+      "field": "info_category_2",
+      "value": "Womens Activewear",
+      "count": 890,
+      "share": 0.003816
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Jigsaw Puzzles",
+      "count": 2497,
+      "share": 0.010708
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Action Figure Core",
+      "count": 1571,
+      "share": 0.006737
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Baby Boys Clothing",
+      "count": 1301,
+      "share": 0.005579
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Baby Girls Clothing",
+      "count": 1292,
+      "share": 0.00554
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Toddler Girls (12M-5T) Clothing",
+      "count": 1209,
+      "share": 0.005184
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "WWE Action Figures",
+      "count": 975,
+      "share": 0.004181
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Shop All Cookies",
+      "count": 688,
+      "share": 0.00295
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Spin Master Monster Jam",
+      "count": 680,
+      "share": 0.002916
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Game Time Drinks",
+      "count": 669,
+      "share": 0.002869
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Fishing Lures & Baits",
+      "count": 634,
+      "share": 0.002719
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Frosting, Toppings & Decorations",
+      "count": 628,
+      "share": 0.002693
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Snack Crackers",
+      "count": 612,
+      "share": 0.002624
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "All Body Wash",
+      "count": 541,
+      "share": 0.00232
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Chewy and gummy candy",
+      "count": 535,
+      "share": 0.002294
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Potato Chips",
+      "count": 512,
+      "share": 0.002196
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Gym Wear",
+      "count": 508,
+      "share": 0.002178
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Toddler Boys (12M-5T) Clothing",
+      "count": 504,
+      "share": 0.002161
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Backyard Camping",
+      "count": 501,
+      "share": 0.002148
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Hot Wheels Cars",
+      "count": 484,
+      "share": 0.002075
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "All Dolls",
+      "count": 464,
+      "share": 0.00199
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Dry pasta",
+      "count": 428,
+      "share": 0.001835
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Shop All Laundry Detergent",
+      "count": 422,
+      "share": 0.00181
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Womens Workout Bottoms",
+      "count": 402,
+      "share": 0.001724
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "All Dog Toys",
+      "count": 390,
+      "share": 0.001672
+    },
+    {
+      "store": "A",
+      "field": "info_category_3",
+      "value": "Adult Dog Food",
+      "count": 374,
+      "share": 0.001604
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "One Size",
+      "count": 707,
+      "share": 0.003032
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "12 oz",
+      "count": 509,
+      "share": 0.002183
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "16 oz",
+      "count": 498,
+      "share": 0.002136
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "750 mL",
+      "count": 497,
+      "share": 0.002131
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "L",
+      "count": 381,
+      "share": 0.001634
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "12 fl oz",
+      "count": 360,
+      "share": 0.001544
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "S",
+      "count": 352,
+      "share": 0.001509
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "8 oz",
+      "count": 349,
+      "share": 0.001497
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "M",
+      "count": 340,
+      "share": 0.001458
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "4 oz",
+      "count": 293,
+      "share": 0.001256
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "Regular",
+      "count": 269,
+      "share": 0.001154
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "1",
+      "count": 256,
+      "share": 0.001098
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "10 oz",
+      "count": 236,
+      "share": 0.001012
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "5 oz",
+      "count": 219,
+      "share": 0.000939
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "16 fl oz",
+      "count": 213,
+      "share": 0.000913
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "6 oz",
+      "count": 209,
+      "share": 0.000896
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "Standard",
+      "count": 197,
+      "share": 0.000845
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "1 gal",
+      "count": 194,
+      "share": 0.000832
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "7 oz",
+      "count": 183,
+      "share": 0.000785
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "2.5 oz",
+      "count": 183,
+      "share": 0.000785
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "3 oz",
+      "count": 183,
+      "share": 0.000785
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "3.5 oz",
+      "count": 176,
+      "share": 0.000755
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "32 oz",
+      "count": 172,
+      "share": 0.000738
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "15 oz",
+      "count": 163,
+      "share": 0.000699
+    },
+    {
+      "store": "A",
+      "field": "sizing_size_user_friendly",
+      "value": "2 oz",
+      "count": 156,
+      "share": 0.000669
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:16",
+      "count": 5775,
+      "share": 0.024764
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:12",
+      "count": 4630,
+      "share": 0.019854
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "count:2",
+      "count": 4620,
+      "share": 0.019811
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:8",
+      "count": 3183,
+      "share": 0.013649
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "count:3",
+      "count": 3067,
+      "share": 0.013152
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:10",
+      "count": 2907,
+      "share": 0.012466
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:4",
+      "count": 2833,
+      "share": 0.012148
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:14",
+      "count": 2705,
+      "share": 0.0116
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "volume:12",
+      "count": 2536,
+      "share": 0.010875
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:32",
+      "count": 2368,
+      "share": 0.010154
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "count:4",
+      "count": 2346,
+      "share": 0.01006
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:15",
+      "count": 1980,
+      "share": 0.008491
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:24",
+      "count": 1716,
+      "share": 0.007359
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "volume:16",
+      "count": 1712,
+      "share": 0.007341
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:6",
+      "count": 1689,
+      "share": 0.007243
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:18",
+      "count": 1684,
+      "share": 0.007221
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:5",
+      "count": 1670,
+      "share": 0.007161
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:11",
+      "count": 1650,
+      "share": 0.007076
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:3",
+      "count": 1646,
+      "share": 0.007058
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "volume:25",
+      "count": 1598,
+      "share": 0.006853
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "count:1",
+      "count": 1562,
+      "share": 0.006698
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:7",
+      "count": 1560,
+      "share": 0.00669
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:20",
+      "count": 1463,
+      "share": 0.006274
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "count:6",
+      "count": 1445,
+      "share": 0.006196
+    },
+    {
+      "store": "A",
+      "field": "size_bucket",
+      "value": "weight:3.5",
+      "count": 1380,
+      "share": 0.005918
+    },
+    {
+      "store": "A",
+      "field": "is_private_label_inferred",
+      "value": "False",
+      "count": 226006,
+      "share": 0.969155
+    },
+    {
+      "store": "A",
+      "field": "is_private_label_inferred",
+      "value": "True",
+      "count": 7193,
+      "share": 0.030845
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Wegmans",
+      "count": 7992,
+      "share": 0.143958
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "TopCare",
+      "count": 748,
+      "share": 0.013474
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "L'Oreal Paris",
+      "count": 423,
+      "share": 0.007619
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Maybelline",
+      "count": 383,
+      "share": 0.006899
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Goya",
+      "count": 364,
+      "share": 0.006557
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Caspari",
+      "count": 349,
+      "share": 0.006286
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Revlon",
+      "count": 292,
+      "share": 0.00526
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "McCormick",
+      "count": 237,
+      "share": 0.004269
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Hershey's",
+      "count": 215,
+      "share": 0.003873
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Wilton",
+      "count": 194,
+      "share": 0.003494
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Dove",
+      "count": 183,
+      "share": 0.003296
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Essie",
+      "count": 174,
+      "share": 0.003134
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Paper Images",
+      "count": 152,
+      "share": 0.002738
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "CoverGirl",
+      "count": 145,
+      "share": 0.002612
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Reese's",
+      "count": 140,
+      "share": 0.002522
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "e.l.f.",
+      "count": 135,
+      "share": 0.002432
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Quest",
+      "count": 132,
+      "share": 0.002378
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Lindt",
+      "count": 132,
+      "share": 0.002378
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Manischewitz",
+      "count": 131,
+      "share": 0.00236
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "C.R. Gibson",
+      "count": 131,
+      "share": 0.00236
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Pepperidge Farm",
+      "count": 121,
+      "share": 0.00218
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Papyrus",
+      "count": 120,
+      "share": 0.002162
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Chobani",
+      "count": 118,
+      "share": 0.002126
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Campbell's",
+      "count": 116,
+      "share": 0.002089
+    },
+    {
+      "store": "B",
+      "field": "brand_raw",
+      "value": "Sally Hansen",
+      "count": 115,
+      "share": 0.002071
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "wegmans",
+      "count": 8050,
+      "share": 0.145003
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "topcare",
+      "count": 756,
+      "share": 0.013618
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "l oreal paris",
+      "count": 423,
+      "share": 0.007619
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "maybelline",
+      "count": 386,
+      "share": 0.006953
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "goya",
+      "count": 376,
+      "share": 0.006773
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "caspari",
+      "count": 352,
+      "share": 0.006341
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "revlon",
+      "count": 301,
+      "share": 0.005422
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "mccormick",
+      "count": 237,
+      "share": 0.004269
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "e l f",
+      "count": 223,
+      "share": 0.004017
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "hershey s",
+      "count": 218,
+      "share": 0.003927
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "wilton",
+      "count": 194,
+      "share": 0.003494
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "dove",
+      "count": 184,
+      "share": 0.003314
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "essie",
+      "count": 175,
+      "share": 0.003152
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "covergirl",
+      "count": 153,
+      "share": 0.002756
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "paper images",
+      "count": 152,
+      "share": 0.002738
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "reese s",
+      "count": 141,
+      "share": 0.00254
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "lindt",
+      "count": 140,
+      "share": 0.002522
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "quest",
+      "count": 139,
+      "share": 0.002504
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "manischewitz",
+      "count": 132,
+      "share": 0.002378
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "c r gibson",
+      "count": 131,
+      "share": 0.00236
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "campbell s",
+      "count": 127,
+      "share": 0.002288
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "pepperidge farm",
+      "count": 126,
+      "share": 0.00227
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "papyrus",
+      "count": 120,
+      "share": 0.002162
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "chobani",
+      "count": 118,
+      "share": 0.002126
+    },
+    {
+      "store": "B",
+      "field": "brand_norm",
+      "value": "polar",
+      "count": 116,
+      "share": 0.002089
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "More Departments",
+      "count": 19586,
+      "share": 0.352799
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Grocery",
+      "count": 18438,
+      "share": 0.33212
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Wine, Beer & Spirits",
+      "count": 5040,
+      "share": 0.090785
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Frozen",
+      "count": 3679,
+      "share": 0.066269
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Dairy",
+      "count": 2951,
+      "share": 0.053156
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Produce & Floral",
+      "count": 1739,
+      "share": 0.031324
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Bakery",
+      "count": 1248,
+      "share": 0.02248
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Meat",
+      "count": 959,
+      "share": 0.017274
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Prepared Foods",
+      "count": 669,
+      "share": 0.012051
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Cheese",
+      "count": 645,
+      "share": 0.011618
+    },
+    {
+      "store": "B",
+      "field": "info_category_0",
+      "value": "Seafood",
+      "count": 562,
+      "share": 0.010123
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Personal Care and Makeup",
+      "count": 7784,
+      "share": 0.140212
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Health and Wellness",
+      "count": 4095,
+      "share": 0.073763
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Beverages",
+      "count": 3469,
+      "share": 0.062486
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Chips & Snack Foods",
+      "count": 2765,
+      "share": 0.049805
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Wine",
+      "count": 2625,
+      "share": 0.047284
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Beer Shop",
+      "count": 2293,
+      "share": 0.041303
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Candy",
+      "count": 1975,
+      "share": 0.035575
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Pantry",
+      "count": 1900,
+      "share": 0.034224
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Household Essentials",
+      "count": 1846,
+      "share": 0.033252
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "International Foods",
+      "count": 1843,
+      "share": 0.033198
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Party Celebrations & Gifts",
+      "count": 1802,
+      "share": 0.032459
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Kitchen and Home",
+      "count": 1688,
+      "share": 0.030406
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Breakfast",
+      "count": 1201,
+      "share": 0.021633
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Ice Cream",
+      "count": 1184,
+      "share": 0.021327
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Baby & Toddler",
+      "count": 1117,
+      "share": 0.02012
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Pet",
+      "count": 1114,
+      "share": 0.020066
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Protein & Snack Bars",
+      "count": 1108,
+      "share": 0.019958
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Baking & Baking Ingredients",
+      "count": 968,
+      "share": 0.017436
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Appetizers & Frozen Meals",
+      "count": 773,
+      "share": 0.013924
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Bulk Foods",
+      "count": 725,
+      "share": 0.013059
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Milk, Juice and Refrigerated Beverage",
+      "count": 678,
+      "share": 0.012213
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Salad Dressing & Condiments",
+      "count": 645,
+      "share": 0.011618
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Soups & Broths",
+      "count": 530,
+      "share": 0.009547
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Yogurt",
+      "count": 521,
+      "share": 0.009385
+    },
+    {
+      "store": "B",
+      "field": "info_category_1",
+      "value": "Vegetables",
+      "count": 505,
+      "share": 0.009096
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Makeup & Nail Care",
+      "count": 2020,
+      "share": 0.036386
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Hair Care",
+      "count": 1956,
+      "share": 0.035233
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Seasonal & Holiday Candy",
+      "count": 1098,
+      "share": 0.019778
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Vitamins and Supplements",
+      "count": 868,
+      "share": 0.015635
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Active & Sport Nutrition",
+      "count": 821,
+      "share": 0.014789
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Cookies",
+      "count": 735,
+      "share": 0.013239
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Coffee & Creamers",
+      "count": 689,
+      "share": 0.012411
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "California",
+      "count": 668,
+      "share": 0.012033
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Facial Skin Care",
+      "count": 658,
+      "share": 0.011852
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Latino Foods",
+      "count": 655,
+      "share": 0.011798
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Candy and Gum",
+      "count": 650,
+      "share": 0.011708
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Asian",
+      "count": 649,
+      "share": 0.01169
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Seasonal Party Supplies",
+      "count": 649,
+      "share": 0.01169
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Protein & Lifestyle Bars",
+      "count": 614,
+      "share": 0.01106
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Dog",
+      "count": 602,
+      "share": 0.010844
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "France",
+      "count": 599,
+      "share": 0.01079
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Bath & Body",
+      "count": 553,
+      "share": 0.009961
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Tea",
+      "count": 548,
+      "share": 0.009871
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Spices",
+      "count": 530,
+      "share": 0.009547
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Dinners & Entrees",
+      "count": 509,
+      "share": 0.009169
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Novelties",
+      "count": 508,
+      "share": 0.009151
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Chocolate",
+      "count": 506,
+      "share": 0.009114
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Soda & Pop",
+      "count": 505,
+      "share": 0.009096
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Sports & Energy Drinks",
+      "count": 504,
+      "share": 0.009078
+    },
+    {
+      "store": "B",
+      "field": "info_category_2",
+      "value": "Oral Care",
+      "count": 495,
+      "share": 0.008916
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Shampoo & Conditioner",
+      "count": 770,
+      "share": 0.01387
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Face",
+      "count": 605,
+      "share": 0.010898
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Cookies",
+      "count": 597,
+      "share": 0.010754
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Ice Cream",
+      "count": 493,
+      "share": 0.00888
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Spices",
+      "count": 463,
+      "share": 0.00834
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Lips",
+      "count": 463,
+      "share": 0.00834
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Single Serve",
+      "count": 409,
+      "share": 0.007367
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Nail Color & Treatment",
+      "count": 396,
+      "share": 0.007133
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Ready To Drink",
+      "count": 347,
+      "share": 0.00625
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "IC Novelties",
+      "count": 347,
+      "share": 0.00625
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Textured Hair Care",
+      "count": 330,
+      "share": 0.005944
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Styling Products",
+      "count": 310,
+      "share": 0.005584
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Lotions & Creams",
+      "count": 291,
+      "share": 0.005242
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Hair Color",
+      "count": 280,
+      "share": 0.005044
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Red Bordeaux Wines",
+      "count": 277,
+      "share": 0.00499
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Treats & Chews",
+      "count": 270,
+      "share": 0.004863
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Eyes",
+      "count": 266,
+      "share": 0.004791
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Energy",
+      "count": 251,
+      "share": 0.004521
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Cleaning Supplies",
+      "count": 235,
+      "share": 0.004233
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Moisturizers",
+      "count": 234,
+      "share": 0.004215
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Body Wash & Shower Gel",
+      "count": 230,
+      "share": 0.004143
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Sports Drinks",
+      "count": 222,
+      "share": 0.003999
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Premium",
+      "count": 215,
+      "share": 0.003873
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Herbal Tea",
+      "count": 212,
+      "share": 0.003819
+    },
+    {
+      "store": "B",
+      "field": "info_category_3",
+      "value": "Solids and Sticks",
+      "count": 211,
+      "share": 0.003801
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "1 each",
+      "count": 4211,
+      "share": 0.075852
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "750 ml.",
+      "count": 2175,
+      "share": 0.039178
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "16 ounce",
+      "count": 1483,
+      "share": 0.026713
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "12 ounce",
+      "count": 1255,
+      "share": 0.022606
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "8 ounce",
+      "count": 1248,
+      "share": 0.02248
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "10 ounce",
+      "count": 890,
+      "share": 0.016031
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "12 fl. oz.",
+      "count": 831,
+      "share": 0.014969
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "72 fl. oz.",
+      "count": 744,
+      "share": 0.013402
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "4 ounce",
+      "count": 682,
+      "share": 0.012285
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "6 ounce",
+      "count": 680,
+      "share": 0.012249
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "7 ounce",
+      "count": 617,
+      "share": 0.011114
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "144 fl. oz.",
+      "count": 610,
+      "share": 0.010988
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "5 ounce",
+      "count": 585,
+      "share": 0.010538
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "16 fl. oz.",
+      "count": 584,
+      "share": 0.010519
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "64 fl. oz.",
+      "count": 560,
+      "share": 0.010087
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "9 ounce",
+      "count": 508,
+      "share": 0.009151
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "20 ct.",
+      "count": 488,
+      "share": 0.00879
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "14 ounce",
+      "count": 478,
+      "share": 0.00861
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "24 ounce",
+      "count": 469,
+      "share": 0.008448
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "15 ounce",
+      "count": 448,
+      "share": 0.00807
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "48 fl. oz.",
+      "count": 435,
+      "share": 0.007836
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "1 fl. oz.",
+      "count": 419,
+      "share": 0.007547
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "32 fl. oz.",
+      "count": 413,
+      "share": 0.007439
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "3 ounce",
+      "count": 400,
+      "share": 0.007205
+    },
+    {
+      "store": "B",
+      "field": "sizing_size_user_friendly",
+      "value": "32 ounce",
+      "count": 387,
+      "share": 0.006971
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "volume:25",
+      "count": 2376,
+      "share": 0.042798
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:16",
+      "count": 1916,
+      "share": 0.034513
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:12",
+      "count": 1652,
+      "share": 0.029757
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:8",
+      "count": 1251,
+      "share": 0.022534
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:10",
+      "count": 1223,
+      "share": 0.02203
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "volume:12",
+      "count": 935,
+      "share": 0.016842
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:14",
+      "count": 921,
+      "share": 0.01659
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "volume:72",
+      "count": 775,
+      "share": 0.01396
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "volume:144",
+      "count": 749,
+      "share": 0.013492
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:4",
+      "count": 693,
+      "share": 0.012483
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:6",
+      "count": 688,
+      "share": 0.012393
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:7",
+      "count": 677,
+      "share": 0.012195
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "volume:16",
+      "count": 651,
+      "share": 0.011726
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:11",
+      "count": 649,
+      "share": 0.01169
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:15",
+      "count": 620,
+      "share": 0.011168
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:5",
+      "count": 591,
+      "share": 0.010646
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:18",
+      "count": 580,
+      "share": 0.010447
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:24",
+      "count": 568,
+      "share": 0.010231
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "volume:64",
+      "count": 564,
+      "share": 0.010159
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:32",
+      "count": 510,
+      "share": 0.009187
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:9",
+      "count": 510,
+      "share": 0.009187
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "count:20",
+      "count": 489,
+      "share": 0.008808
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "weight:13",
+      "count": 483,
+      "share": 0.0087
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "volume:48",
+      "count": 466,
+      "share": 0.008394
+    },
+    {
+      "store": "B",
+      "field": "size_bucket",
+      "value": "volume:1",
+      "count": 426,
+      "share": 0.007673
+    },
+    {
+      "store": "B",
+      "field": "is_private_label_inferred",
+      "value": "False",
+      "count": 47452,
+      "share": 0.854745
+    },
+    {
+      "store": "B",
+      "field": "is_private_label_inferred",
+      "value": "True",
+      "count": 8064,
+      "share": 0.145255
+    }
+  ]
+}

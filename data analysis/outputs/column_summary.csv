@@ -1,0 +1,106 @@
+store,column,nonmissing,missing,missing_pct,unique_nonmissing,example
+A,item_id,233199,0,0.0,233198,363563
+A,name,233197,2,9e-06,221102,"Great Value Corn on The Cob, 24 Count (Frozen)"
+A,brand_raw,126235,106964,0.458681,18878,Mainstays
+A,name_clean,0,233199,1.0,0,
+A,description,18908,214291,0.918919,18349,"<h2>Gather around the dining table with Great Value Corn on the Cob!</h2>  <p>Eating your veggies just got easier with Great Value Corn on the Cob. With no added chemicals or sugars, Great Value Corn on the Cob is frozen to ensure long-lasting farm-fresh flavors perfect for delicious, easy, and quick dinner ideas. Great Value Corn on the Cob is not only fast and easy to prepare but sure to satisfy. Ready in minutes, all you have to do is heat in a microwave-safe dish in the microwave or boil the frozen corn cobs in a saucepan on the stove.</p>  <h3>About Great Value</h3>  <p>Great Value products provide families with affordable, high-quality grocery and household consumable options. With our wide range of product categories spanning grocery and household consumables, we offer you a variety of products for your family's needs. Our products are conveniently available online and in Walmart stores nationwide, allowing you to stock up and save money at the same time.</p>"
+A,category,0,233199,1.0,0,
+A,department,0,233199,1.0,0,
+A,url,233194,5,2.1e-05,233148,https://www.walmart.com/ip/Great-Value-Corn-on-The-Cob-24-Count-Frozen/10315184
+A,item_type,0,233199,1.0,0,
+A,item_info,219571,13628,0.058439,26667,"{""category_0"": ""Food"", ""category_1"": ""Dietary & Lifestyle Shop"", ""category_2"": ""Feel Good Sides"", ""category_3"": null, ""storage_type"": null, ""packaging_description"": null}"
+A,tags,5,233194,0.999979,2,"{""billed_by_weight"": false, ""size_user_friendly"": null, ""uom_billed_by_weight"": null}"
+A,subcategory,0,233199,1.0,0,
+A,is_private_label,0,233199,1.0,0,
+A,sizing_comp,219576,13623,0.058418,14076,"{""billed_by_weight"": false, ""ordered_by_weight"": false, ""avg_size_per_piece"": null, ""size_user_friendly"": null, ""uom_billed_by_weight"": null, ""uom_ordered_by_weight"": null}"
+A,size_raw,0,233199,1.0,0,
+A,datapoint_id,139832,93367,0.400375,137599,40850972
+A,raw_data_id,186666,46533,0.199542,5544,20733
+A,created_at_utc,233194,5,2.1e-05,2668,2026-02-26 18:37:53.679383 +00:00
+A,updated_at_utc,233189,10,4.3e-05,4024,2026-04-27 01:19:12.394578 +00:00
+A,info_category_0,219263,13936,0.05976,43,Food
+A,info_category_1,219068,14131,0.060596,890,Dietary & Lifestyle Shop
+A,info_category_2,183630,49569,0.212561,4128,Feel Good Sides
+A,info_category_3,110244,122955,0.527254,6086,Picture Frames Shop All
+A,info_storage_type,13896,219303,0.940411,4,dry
+A,info_packaging_description,18496,214703,0.920686,443,Bag
+A,info_ingredients,7872,225327,0.966243,6973,"Siete - Grain Free Tortilla Chips Lime - 5 oz. (142 g) Nutrition Facts Serving Size:&nbsp; 1 oz. (28 g) = &nbsp;About 15&nbsp;Chips Servings Per Container: 5 Amount Per Serving % Daily Value Calories 130 Total Fat 7g 9% &nbsp; Saturated Fat 1g 5% &nbsp; Trans Fat 0g Cholesterol 0mg 0% Sodium 130mg 6% Total Carbohydrate 19g 7% &nbsp; Dietary Fiber 3g 11% &nbsp; Total Sugars 1g &nbsp;&nbsp;&nbsp; Includes 0g Added Sugars 0% Protein 1g Vitamin D 0mcg 0% Calcium 20mg 2% Iron 0.7mg 4% Potassium 150mg 4% The % Daily Value&nbsp;tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice. Ingredients: Cassava Flour, Avocado Oil, Coconut Flour, Chia Seed, Sea Salt, Citric Acid, Lime Oil. Contains: Coconuts."
+A,info_planogram,0,233199,1.0,0,
+A,sizing_unit_price,0,233199,1.0,0,
+A,sizing_uom_unit_price,0,233199,1.0,0,
+A,sizing_billed_by_weight,219571,13628,0.058439,2,False
+A,sizing_ordered_by_weight,201970,31229,0.133916,2,False
+A,sizing_avg_size_per_piece,705,232494,0.996977,301,2.95
+A,sizing_size_user_friendly,39765,193434,0.82948,11727,5 x 7
+A,sizing_size_from_unit_price,0,233199,1.0,0,
+A,sizing_uom_billed_by_weight,336,232863,0.998559,3,lb
+A,sizing_uom_ordered_by_weight,74,233125,0.999683,1,lb
+A,sizing_num_servings_nutrition,0,233199,1.0,0,
+A,sizing_serving_size_nutrition,0,233199,1.0,0,
+A,sizing_serving_size_uom_nutrition,0,233199,1.0,0,
+A,tags_list,1,233198,0.999996,2,['size_user_friendly']
+A,tags_norm,1,233198,0.999996,2,size user friendly
+A,brand_norm,126232,106967,0.458694,18564,mainstays
+A,name_norm,233197,2,9e-06,220641,great value corn on the cob 24 count frozen
+A,size_value,135381,97818,0.419461,2248,24.0
+A,size_unit,135381,97818,0.419461,3,count
+A,size_dimension,135381,97818,0.419461,3,count
+A,size_canonical,135381,97818,0.419461,3025,24.0
+A,size_bucket,135381,97818,0.419461,1294,count:24
+A,info_category_0_norm,219263,13936,0.05976,44,food
+A,info_category_1_norm,219068,14131,0.060596,891,dietary and lifestyle shop
+A,info_category_2_norm,183630,49569,0.212561,4119,feel good sides
+A,info_category_3_norm,110244,122955,0.527254,6082,picture frames shop all
+A,is_private_label_inferred,233199,0,0.0,2,False
+B,item_id,55516,0,0.0,55516,114669
+B,name,55516,0,0.0,52294,"Essie Nail Lacquer, Ballet Slippers 096"
+B,brand_raw,49965,5551,0.099989,6247,Essie
+B,name_clean,0,55516,1.0,0,
+B,description,51938,3578,0.06445,47236,Made in USA.
+B,category,0,55516,1.0,0,
+B,department,0,55516,1.0,0,
+B,url,55516,0,0.0,55516,https://www.wegmans.com/shop/product/428943-Nail-Lacquer-Ballet-Slippers-096
+B,is_organic,0,55516,1.0,0,
+B,item_info,55516,0,0.0,30922,"{""category_0"": ""More Departments"", ""category_1"": ""Personal Care and Makeup"", ""category_2"": ""Makeup & Nail Care"", ""category_3"": ""Nail Color & Treatment""}"
+B,tags,42901,12615,0.227232,325,{}
+B,subcategory,0,55516,1.0,0,
+B,sizing_comp,55516,0,0.0,18799,"{""billed_by_weight"": false, ""ordered_by_weight"": false, ""avg_size_per_piece"": null, ""size_user_friendly"": ""0.46 fl. oz."", ""uom_billed_by_weight"": null, ""uom_ordered_by_weight"": null, ""num_servings_nutrition"": null, ""serving_size_nutrition"": null, ""serving_size_uom_nutrition"": null}"
+B,size_raw,0,55516,1.0,0,
+B,datapoint_id,52662,2854,0.051409,5444,54573612
+B,raw_data_id,36993,18523,0.333652,24,21727
+B,created_at_utc,55516,0,0.0,27,2026-02-26 18:37:53.679383 +00:00
+B,updated_at_utc,55516,0,0.0,25,2026-04-02 04:44:31.172913 +00:00
+B,info_category_0,55516,0,0.0,11,More Departments
+B,info_category_1,55516,0,0.0,105,Personal Care and Makeup
+B,info_category_2,54294,1222,0.022012,541,Makeup & Nail Care
+B,info_category_3,27954,27562,0.496469,610,Nail Color & Treatment
+B,info_storage_type,0,55516,1.0,0,
+B,info_packaging_description,0,55516,1.0,0,
+B,info_ingredients,29253,26263,0.473071,24777,"Wheat Flour, Water, Defatted Soy Flour, Sea Salt, Egg White Powder, Mineral Salt."
+B,info_planogram,17842,37674,0.678615,2771,{'aisle': 'See Store Associate'}
+B,sizing_unit_price,15803,39713,0.715343,2433,$0.06/fl. oz.
+B,sizing_uom_unit_price,15803,39713,0.715343,65,fl. oz.
+B,sizing_billed_by_weight,54835,681,0.012267,2,False
+B,sizing_ordered_by_weight,54835,681,0.012267,2,False
+B,sizing_avg_size_per_piece,1349,54167,0.975701,292,0.53
+B,sizing_size_user_friendly,53090,2426,0.043699,2245,0.46 fl. oz.
+B,sizing_size_from_unit_price,15796,39720,0.715469,2525,15.33
+B,sizing_uom_billed_by_weight,1740,53776,0.968658,1,lb
+B,sizing_uom_ordered_by_weight,391,55125,0.992957,1,lb
+B,sizing_num_servings_nutrition,23013,32503,0.585471,287,16.0
+B,sizing_serving_size_nutrition,24429,31087,0.559965,591,30.0
+B,sizing_serving_size_uom_nutrition,21759,33757,0.608059,2,mL
+B,tags_list,5906,49610,0.893616,70,"['_internal_any_gluten_free', 'gluten_free', 'wegmans_brand']"
+B,tags_norm,5906,49610,0.893616,70,gluten free internal any gluten free wegmans brand
+B,brand_norm,49965,5551,0.099989,5636,essie
+B,name_norm,55516,0,0.0,52140,essie nail lacquer ballet slippers 096
+B,size_value,47304,8212,0.147921,1484,0.46
+B,size_unit,47304,8212,0.147921,3,fl_oz
+B,size_dimension,47304,8212,0.147921,3,volume
+B,size_canonical,47304,8212,0.147921,1545,0.46
+B,size_bucket,47304,8212,0.147921,770,volume:0.46
+B,info_category_0_norm,55516,0,0.0,11,more departments
+B,info_category_1_norm,55516,0,0.0,105,personal care and makeup
+B,info_category_2_norm,54294,1222,0.022012,542,makeup and nail care
+B,info_category_3_norm,27954,27562,0.496469,611,nail color and treatment
+B,is_private_label_inferred,55516,0,0.0,2,False

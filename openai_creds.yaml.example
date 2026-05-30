@@ -1,0 +1,11 @@
+# Copy this file to `openai_creds.yaml` and fill in your Azure OpenAI
+# deployment credentials. The `openai_creds.yaml` file is gitignored.
+#
+# Both System 1 and System 2 use this Azure deployment for the LLM
+# judge (gpt-5.4-nano). System 2 additionally uses the OPENAI_API_KEY
+# in .env for embeddings (a separate provider surface).
+
+openai:
+  endpoint: "https://<your-deployment>.openai.azure.com/openai/v1/"
+  api_key: "your-azure-api-key-here"
+  deployment_name: "gpt-5.4-nano"

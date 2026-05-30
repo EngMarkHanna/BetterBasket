@@ -1,0 +1,1647 @@
+{
+  "stores": {
+    "A": {
+      "rows": 233199,
+      "upc_like_rows": 1122,
+      "upc_like_rate": 0.004811,
+      "brand_coverage": 0.541306,
+      "size_coverage": 0.580539,
+      "private_label_rows": 7193,
+      "private_label_rate": 0.030845
+    },
+    "B": {
+      "rows": 55516,
+      "upc_like_rows": 366,
+      "upc_like_rate": 0.006593,
+      "brand_coverage": 0.900011,
+      "size_coverage": 0.852079,
+      "private_label_rows": 8064,
+      "private_label_rate": 0.145255
+    }
+  },
+  "overlaps": [
+    {
+      "column": "brand_norm",
+      "a_unique": 18563,
+      "b_unique": 5635,
+      "shared_unique": 2438,
+      "shared_examples": [
+        "100 grand",
+        "19 crimes",
+        "2san",
+        "3 musketeers",
+        "34 degrees",
+        "4c",
+        "5 hour energy",
+        "5th season",
+        "7up",
+        "a 1",
+        "a and w",
+        "a d",
+        "a dozen cousins",
+        "a taste of thai",
+        "a vogel",
+        "a2 milk",
+        "abe s",
+        "absolutely gluten free",
+        "accu chek",
+        "acme smoked fish",
+        "act",
+        "act ii",
+        "activia",
+        "adams reserve",
+        "advil",
+        "aeropress",
+        "afrin",
+        "against the grain",
+        "air wick",
+        "airborne",
+        "airheads",
+        "airplus",
+        "ajax",
+        "ajinomoto",
+        "al fresco",
+        "alaffia",
+        "alani",
+        "alani nu",
+        "alba botanica",
+        "albanese",
+        "albert s",
+        "alberto vo5",
+        "alcon",
+        "aleia s",
+        "alessi",
+        "aleve",
+        "alexia",
+        "align",
+        "alka seltzer",
+        "alka seltzer plus"
+      ]
+    },
+    {
+      "column": "size_bucket",
+      "a_unique": 1293,
+      "b_unique": 769,
+      "shared_unique": 716,
+      "shared_examples": [
+        "count:1",
+        "count:10",
+        "count:100",
+        "count:1000",
+        "count:1008",
+        "count:104",
+        "count:105",
+        "count:108",
+        "count:11",
+        "count:110",
+        "count:111",
+        "count:112",
+        "count:115",
+        "count:116",
+        "count:12",
+        "count:120",
+        "count:124",
+        "count:125",
+        "count:126",
+        "count:128",
+        "count:129",
+        "count:13",
+        "count:130",
+        "count:132",
+        "count:135",
+        "count:136",
+        "count:14",
+        "count:140",
+        "count:144",
+        "count:148",
+        "count:15",
+        "count:150",
+        "count:152",
+        "count:154",
+        "count:16",
+        "count:160",
+        "count:162",
+        "count:164",
+        "count:168",
+        "count:17",
+        "count:170",
+        "count:18",
+        "count:180",
+        "count:184",
+        "count:186",
+        "count:19",
+        "count:190",
+        "count:192",
+        "count:2",
+        "count:20"
+      ]
+    },
+    {
+      "column": "info_category_0_norm",
+      "a_unique": 43,
+      "b_unique": 11,
+      "shared_unique": 0,
+      "shared_examples": []
+    },
+    {
+      "column": "info_category_1_norm",
+      "a_unique": 890,
+      "b_unique": 105,
+      "shared_unique": 4,
+      "shared_examples": [
+        "beverages",
+        "candy",
+        "deli",
+        "pantry"
+      ]
+    },
+    {
+      "column": "info_category_2_norm",
+      "a_unique": 4118,
+      "b_unique": 541,
+      "shared_unique": 47,
+      "shared_examples": [
+        "asian foods",
+        "baking",
+        "bath and body",
+        "beverages",
+        "bowls",
+        "brownies",
+        "cheese",
+        "chicken",
+        "chips",
+        "chocolate",
+        "cleaning supplies",
+        "cookies",
+        "crackers",
+        "cupcakes",
+        "digestive health",
+        "dips",
+        "eggs",
+        "essential oils",
+        "european and mediterranean",
+        "flowers",
+        "fruit snacks",
+        "functional beverages",
+        "gluten free",
+        "greeting cards",
+        "gum",
+        "hard seltzer",
+        "honey",
+        "kitchen and table linens",
+        "kitchen appliances",
+        "kosher",
+        "lip care",
+        "milk",
+        "oatmeal and grits",
+        "pacifiers and teethers",
+        "pain relief",
+        "pantry",
+        "pasta",
+        "popcorn",
+        "pretzels",
+        "rolls",
+        "snacks",
+        "squash",
+        "sun care",
+        "superfoods",
+        "tea",
+        "turkey",
+        "wild bird food"
+      ]
+    },
+    {
+      "column": "info_category_3_norm",
+      "a_unique": 6081,
+      "b_unique": 610,
+      "shared_unique": 62,
+      "shared_examples": [
+        "accessories",
+        "almonds",
+        "american flags",
+        "bacon",
+        "bar soap",
+        "beans",
+        "beverages",
+        "birthday candles",
+        "black tea",
+        "calcium",
+        "candles",
+        "canned beans",
+        "chai tea",
+        "cheese snacks",
+        "citronella candles",
+        "cookies",
+        "cooking sauces",
+        "cranberry",
+        "face masks",
+        "flavored water",
+        "fresh dog food",
+        "gloves",
+        "green tea",
+        "herbal tea",
+        "ice cream",
+        "kids",
+        "lemonade",
+        "macaroni and cheese",
+        "mascara",
+        "men s grooming",
+        "microwave popcorn",
+        "mixed nuts",
+        "mushrooms",
+        "night lights",
+        "notebooks and pads",
+        "packaged meals",
+        "peanuts",
+        "pepperoni",
+        "pie crusts and fillings",
+        "potatoes",
+        "quick clean",
+        "rice",
+        "saucepans",
+        "seeds",
+        "sodastream",
+        "sparkling juice",
+        "spices",
+        "sports drinks",
+        "straws",
+        "stuffing"
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "columns": [
+        "brand_norm"
+      ],
+      "shared_blocks": 2438,
+      "a_rows_covered": 34535,
+      "b_rows_covered": 28726,
+      "a_coverage": 0.148092,
+      "b_coverage": 0.517436,
+      "candidate_pair_estimate": 1070709,
+      "largest_shared_blocks": [
+        {
+          "block": "goya",
+          "a_count": 228,
+          "b_count": 376,
+          "pairs": 85728
+        },
+        {
+          "block": "maybelline",
+          "a_count": 129,
+          "b_count": 386,
+          "pairs": 49794
+        },
+        {
+          "block": "hershey s",
+          "a_count": 207,
+          "b_count": 218,
+          "pairs": 45126
+        },
+        {
+          "block": "wilton",
+          "a_count": 201,
+          "b_count": 194,
+          "pairs": 38994
+        },
+        {
+          "block": "dove",
+          "a_count": 206,
+          "b_count": 184,
+          "pairs": 37904
+        },
+        {
+          "block": "revlon",
+          "a_count": 105,
+          "b_count": 301,
+          "pairs": 31605
+        },
+        {
+          "block": "gerber",
+          "a_count": 244,
+          "b_count": 88,
+          "pairs": 21472
+        },
+        {
+          "block": "reese s",
+          "a_count": 137,
+          "b_count": 141,
+          "pairs": 19317
+        },
+        {
+          "block": "covergirl",
+          "a_count": 107,
+          "b_count": 153,
+          "pairs": 16371
+        },
+        {
+          "block": "lindt",
+          "a_count": 106,
+          "b_count": 140,
+          "pairs": 14840
+        },
+        {
+          "block": "tide",
+          "a_count": 285,
+          "b_count": 52,
+          "pairs": 14820
+        },
+        {
+          "block": "mccormick",
+          "a_count": 60,
+          "b_count": 237,
+          "pairs": 14220
+        },
+        {
+          "block": "pillsbury",
+          "a_count": 122,
+          "b_count": 108,
+          "pairs": 13176
+        },
+        {
+          "block": "neutrogena",
+          "a_count": 120,
+          "b_count": 106,
+          "pairs": 12720
+        },
+        {
+          "block": "l oreal paris",
+          "a_count": 26,
+          "b_count": 423,
+          "pairs": 10998
+        },
+        {
+          "block": "suave",
+          "a_count": 178,
+          "b_count": 59,
+          "pairs": 10502
+        },
+        {
+          "block": "old spice",
+          "a_count": 122,
+          "b_count": 86,
+          "pairs": 10492
+        },
+        {
+          "block": "olay",
+          "a_count": 105,
+          "b_count": 94,
+          "pairs": 9870
+        },
+        {
+          "block": "pampers",
+          "a_count": 106,
+          "b_count": 92,
+          "pairs": 9752
+        },
+        {
+          "block": "glade",
+          "a_count": 105,
+          "b_count": 90,
+          "pairs": 9450
+        }
+      ]
+    },
+    {
+      "columns": [
+        "brand_norm",
+        "size_bucket"
+      ],
+      "shared_blocks": 3750,
+      "a_rows_covered": 9789,
+      "b_rows_covered": 13032,
+      "a_coverage": 0.041977,
+      "b_coverage": 0.234743,
+      "candidate_pair_estimate": 57938,
+      "largest_shared_blocks": [
+        {
+          "block": "beech nut|weight:4",
+          "a_count": 50,
+          "b_count": 40,
+          "pairs": 2000
+        },
+        {
+          "block": "traditional medicinals|count:16",
+          "a_count": 23,
+          "b_count": 53,
+          "pairs": 1219
+        },
+        {
+          "block": "secret|weight:2.6",
+          "a_count": 61,
+          "b_count": 18,
+          "pairs": 1098
+        },
+        {
+          "block": "goya|weight:16",
+          "a_count": 12,
+          "b_count": 79,
+          "pairs": 948
+        },
+        {
+          "block": "fancy feast|weight:3",
+          "a_count": 35,
+          "b_count": 24,
+          "pairs": 840
+        },
+        {
+          "block": "pillsbury|weight:16",
+          "a_count": 23,
+          "b_count": 32,
+          "pairs": 736
+        },
+        {
+          "block": "campbell s|weight:10",
+          "a_count": 15,
+          "b_count": 47,
+          "pairs": 705
+        },
+        {
+          "block": "suave|volume:28",
+          "a_count": 28,
+          "b_count": 21,
+          "pairs": 588
+        },
+        {
+          "block": "maybelline|volume:1",
+          "a_count": 10,
+          "b_count": 54,
+          "pairs": 540
+        },
+        {
+          "block": "serenity kids|weight:3.5",
+          "a_count": 20,
+          "b_count": 26,
+          "pairs": 520
+        },
+        {
+          "block": "native|volume:16",
+          "a_count": 18,
+          "b_count": 26,
+          "pairs": 468
+        },
+        {
+          "block": "celsius|volume:12",
+          "a_count": 16,
+          "b_count": 28,
+          "pairs": 448
+        },
+        {
+          "block": "kraft|weight:8",
+          "a_count": 37,
+          "b_count": 11,
+          "pairs": 407
+        },
+        {
+          "block": "yogi|count:16",
+          "a_count": 23,
+          "b_count": 17,
+          "pairs": 391
+        },
+        {
+          "block": "pillsbury|weight:15",
+          "a_count": 23,
+          "b_count": 16,
+          "pairs": 368
+        },
+        {
+          "block": "cabot creamery|weight:8",
+          "a_count": 13,
+          "b_count": 28,
+          "pairs": 364
+        },
+        {
+          "block": "sally hansen|volume:0.5",
+          "a_count": 7,
+          "b_count": 52,
+          "pairs": 364
+        },
+        {
+          "block": "friskies|weight:5.5",
+          "a_count": 25,
+          "b_count": 14,
+          "pairs": 350
+        },
+        {
+          "block": "beech nut|weight:3.5",
+          "a_count": 23,
+          "b_count": 14,
+          "pairs": 322
+        },
+        {
+          "block": "dr squatch|weight:5",
+          "a_count": 20,
+          "b_count": 16,
+          "pairs": 320
+        }
+      ]
+    },
+    {
+      "columns": [
+        "brand_norm",
+        "size_bucket",
+        "info_category_2_norm"
+      ],
+      "shared_blocks": 288,
+      "a_rows_covered": 595,
+      "b_rows_covered": 941,
+      "a_coverage": 0.002551,
+      "b_coverage": 0.01695,
+      "candidate_pair_estimate": 3611,
+      "largest_shared_blocks": [
+        {
+          "block": "traditional medicinals|count:16|tea",
+          "a_count": 17,
+          "b_count": 50,
+          "pairs": 850
+        },
+        {
+          "block": "celestial seasonings|count:20|tea",
+          "a_count": 12,
+          "b_count": 21,
+          "pairs": 252
+        },
+        {
+          "block": "yogi|count:16|tea",
+          "a_count": 13,
+          "b_count": 17,
+          "pairs": 221
+        },
+        {
+          "block": "twinings|count:20|tea",
+          "a_count": 10,
+          "b_count": 22,
+          "pairs": 220
+        },
+        {
+          "block": "oreo|weight:11|cookies",
+          "a_count": 10,
+          "b_count": 9,
+          "pairs": 90
+        },
+        {
+          "block": "utz|weight:7.8|chips",
+          "a_count": 9,
+          "b_count": 10,
+          "pairs": 90
+        },
+        {
+          "block": "snapple|volume:16|tea",
+          "a_count": 14,
+          "b_count": 6,
+          "pairs": 84
+        },
+        {
+          "block": "lay s|weight:7.8|chips",
+          "a_count": 4,
+          "b_count": 18,
+          "pairs": 72
+        },
+        {
+          "block": "utz|weight:16|pretzels",
+          "a_count": 9,
+          "b_count": 8,
+          "pairs": 72
+        },
+        {
+          "block": "cheez it|weight:12|crackers",
+          "a_count": 5,
+          "b_count": 14,
+          "pairs": 70
+        },
+        {
+          "block": "pringles|weight:5.5|chips",
+          "a_count": 7,
+          "b_count": 10,
+          "pairs": 70
+        },
+        {
+          "block": "lindt|weight:3.5|chocolate",
+          "a_count": 4,
+          "b_count": 12,
+          "pairs": 48
+        },
+        {
+          "block": "simple mills|weight:4.2|crackers",
+          "a_count": 5,
+          "b_count": 9,
+          "pairs": 45
+        },
+        {
+          "block": "ruffles|weight:8|chips",
+          "a_count": 4,
+          "b_count": 10,
+          "pairs": 40
+        },
+        {
+          "block": "hershey s|weight:10|chocolate",
+          "a_count": 3,
+          "b_count": 13,
+          "pairs": 39
+        },
+        {
+          "block": "tate s bake shop|weight:7|cookies",
+          "a_count": 3,
+          "b_count": 12,
+          "pairs": 36
+        },
+        {
+          "block": "oreo|weight:12|cookies",
+          "a_count": 3,
+          "b_count": 11,
+          "pairs": 33
+        },
+        {
+          "block": "every body eat|weight:4|crackers",
+          "a_count": 8,
+          "b_count": 4,
+          "pairs": 32
+        },
+        {
+          "block": "hershey s|weight:9|chocolate",
+          "a_count": 10,
+          "b_count": 3,
+          "pairs": 30
+        },
+        {
+          "block": "m and m s|weight:10|chocolate",
+          "a_count": 5,
+          "b_count": 6,
+          "pairs": 30
+        }
+      ]
+    },
+    {
+      "columns": [
+        "size_bucket",
+        "info_category_2_norm"
+      ],
+      "shared_blocks": 614,
+      "a_rows_covered": 5450,
+      "b_rows_covered": 4410,
+      "a_coverage": 0.023371,
+      "b_coverage": 0.079437,
+      "candidate_pair_estimate": 93834,
+      "largest_shared_blocks": [
+        {
+          "block": "weight:16|pasta",
+          "a_count": 121,
+          "b_count": 120,
+          "pairs": 14520
+        },
+        {
+          "block": "weight:8|chips",
+          "a_count": 134,
+          "b_count": 45,
+          "pairs": 6030
+        },
+        {
+          "block": "count:20|tea",
+          "a_count": 45,
+          "b_count": 116,
+          "pairs": 5220
+        },
+        {
+          "block": "weight:12|cookies",
+          "a_count": 73,
+          "b_count": 58,
+          "pairs": 4234
+        },
+        {
+          "block": "count:16|tea",
+          "a_count": 41,
+          "b_count": 86,
+          "pairs": 3526
+        },
+        {
+          "block": "weight:7.8|chips",
+          "a_count": 91,
+          "b_count": 29,
+          "pairs": 2639
+        },
+        {
+          "block": "weight:14|cookies",
+          "a_count": 70,
+          "b_count": 36,
+          "pairs": 2520
+        },
+        {
+          "block": "weight:12|crackers",
+          "a_count": 63,
+          "b_count": 37,
+          "pairs": 2331
+        },
+        {
+          "block": "weight:7|cookies",
+          "a_count": 50,
+          "b_count": 44,
+          "pairs": 2200
+        },
+        {
+          "block": "weight:10|cookies",
+          "a_count": 39,
+          "b_count": 50,
+          "pairs": 1950
+        },
+        {
+          "block": "weight:12|pasta",
+          "a_count": 35,
+          "b_count": 53,
+          "pairs": 1855
+        },
+        {
+          "block": "weight:10|chocolate",
+          "a_count": 52,
+          "b_count": 33,
+          "pairs": 1716
+        },
+        {
+          "block": "weight:16|pretzels",
+          "a_count": 50,
+          "b_count": 32,
+          "pairs": 1600
+        },
+        {
+          "block": "weight:11|cookies",
+          "a_count": 39,
+          "b_count": 40,
+          "pairs": 1560
+        },
+        {
+          "block": "weight:8|cheese",
+          "a_count": 156,
+          "b_count": 10,
+          "pairs": 1560
+        },
+        {
+          "block": "weight:12|chips",
+          "a_count": 80,
+          "b_count": 17,
+          "pairs": 1360
+        },
+        {
+          "block": "weight:5|chips",
+          "a_count": 80,
+          "b_count": 17,
+          "pairs": 1360
+        },
+        {
+          "block": "weight:3.5|chocolate",
+          "a_count": 37,
+          "b_count": 36,
+          "pairs": 1332
+        },
+        {
+          "block": "volume:64|milk",
+          "a_count": 34,
+          "b_count": 36,
+          "pairs": 1224
+        },
+        {
+          "block": "weight:7.5|chips",
+          "a_count": 39,
+          "b_count": 31,
+          "pairs": 1209
+        }
+      ]
+    },
+    {
+      "columns": [
+        "is_private_label_inferred",
+        "size_bucket",
+        "info_category_2_norm"
+      ],
+      "shared_blocks": 604,
+      "a_rows_covered": 5231,
+      "b_rows_covered": 3948,
+      "a_coverage": 0.022431,
+      "b_coverage": 0.071115,
+      "candidate_pair_estimate": 77064,
+      "largest_shared_blocks": [
+        {
+          "block": "False|weight:16|pasta",
+          "a_count": 121,
+          "b_count": 67,
+          "pairs": 8107
+        },
+        {
+          "block": "False|weight:8|chips",
+          "a_count": 133,
+          "b_count": 42,
+          "pairs": 5586
+        },
+        {
+          "block": "False|count:20|tea",
+          "a_count": 45,
+          "b_count": 81,
+          "pairs": 3645
+        },
+        {
+          "block": "False|count:16|tea",
+          "a_count": 41,
+          "b_count": 80,
+          "pairs": 3280
+        },
+        {
+          "block": "False|weight:12|cookies",
+          "a_count": 71,
+          "b_count": 45,
+          "pairs": 3195
+        },
+        {
+          "block": "False|weight:7.8|chips",
+          "a_count": 91,
+          "b_count": 29,
+          "pairs": 2639
+        },
+        {
+          "block": "False|weight:12|crackers",
+          "a_count": 63,
+          "b_count": 34,
+          "pairs": 2142
+        },
+        {
+          "block": "False|weight:7|cookies",
+          "a_count": 50,
+          "b_count": 38,
+          "pairs": 1900
+        },
+        {
+          "block": "False|weight:10|cookies",
+          "a_count": 38,
+          "b_count": 48,
+          "pairs": 1824
+        },
+        {
+          "block": "False|weight:10|chocolate",
+          "a_count": 50,
+          "b_count": 33,
+          "pairs": 1650
+        },
+        {
+          "block": "False|weight:14|cookies",
+          "a_count": 66,
+          "b_count": 24,
+          "pairs": 1584
+        },
+        {
+          "block": "False|weight:12|pasta",
+          "a_count": 34,
+          "b_count": 46,
+          "pairs": 1564
+        },
+        {
+          "block": "False|weight:16|pretzels",
+          "a_count": 49,
+          "b_count": 31,
+          "pairs": 1519
+        },
+        {
+          "block": "False|weight:11|cookies",
+          "a_count": 38,
+          "b_count": 38,
+          "pairs": 1444
+        },
+        {
+          "block": "False|weight:12|chips",
+          "a_count": 79,
+          "b_count": 17,
+          "pairs": 1343
+        },
+        {
+          "block": "False|weight:5|chips",
+          "a_count": 79,
+          "b_count": 17,
+          "pairs": 1343
+        },
+        {
+          "block": "False|weight:3.5|chocolate",
+          "a_count": 37,
+          "b_count": 36,
+          "pairs": 1332
+        },
+        {
+          "block": "False|weight:7.5|chips",
+          "a_count": 39,
+          "b_count": 31,
+          "pairs": 1209
+        },
+        {
+          "block": "False|weight:5.5|chips",
+          "a_count": 87,
+          "b_count": 12,
+          "pairs": 1044
+        },
+        {
+          "block": "False|volume:16|tea",
+          "a_count": 41,
+          "b_count": 24,
+          "pairs": 984
+        }
+      ]
+    }
+  ],
+  "top_shared_brands": [
+    [
+      "hallmark",
+      {
+        "A": 1028,
+        "B": 2
+      }
+    ],
+    [
+      "disney",
+      {
+        "A": 776,
+        "B": 6
+      }
+    ],
+    [
+      "goya",
+      {
+        "A": 228,
+        "B": 376
+      }
+    ],
+    [
+      "hot wheels",
+      {
+        "A": 575,
+        "B": 4
+      }
+    ],
+    [
+      "maybelline",
+      {
+        "A": 129,
+        "B": 386
+      }
+    ],
+    [
+      "l oreal paris",
+      {
+        "A": 26,
+        "B": 423
+      }
+    ],
+    [
+      "hershey s",
+      {
+        "A": 207,
+        "B": 218
+      }
+    ],
+    [
+      "revlon",
+      {
+        "A": 105,
+        "B": 301
+      }
+    ],
+    [
+      "wilton",
+      {
+        "A": 201,
+        "B": 194
+      }
+    ],
+    [
+      "dove",
+      {
+        "A": 206,
+        "B": 184
+      }
+    ],
+    [
+      "bluey",
+      {
+        "A": 363,
+        "B": 3
+      }
+    ],
+    [
+      "tide",
+      {
+        "A": 285,
+        "B": 52
+      }
+    ],
+    [
+      "gerber",
+      {
+        "A": 244,
+        "B": 88
+      }
+    ],
+    [
+      "spring valley",
+      {
+        "A": 298,
+        "B": 10
+      }
+    ],
+    [
+      "mccormick",
+      {
+        "A": 60,
+        "B": 237
+      }
+    ],
+    [
+      "reese s",
+      {
+        "A": 137,
+        "B": 141
+      }
+    ],
+    [
+      "marvel",
+      {
+        "A": 269,
+        "B": 2
+      }
+    ],
+    [
+      "covergirl",
+      {
+        "A": 107,
+        "B": 153
+      }
+    ],
+    [
+      "lindt",
+      {
+        "A": 106,
+        "B": 140
+      }
+    ],
+    [
+      "barbie",
+      {
+        "A": 243,
+        "B": 1
+      }
+    ],
+    [
+      "suave",
+      {
+        "A": 178,
+        "B": 59
+      }
+    ],
+    [
+      "pillsbury",
+      {
+        "A": 122,
+        "B": 108
+      }
+    ],
+    [
+      "neutrogena",
+      {
+        "A": 120,
+        "B": 106
+      }
+    ],
+    [
+      "minecraft",
+      {
+        "A": 225,
+        "B": 1
+      }
+    ],
+    [
+      "command",
+      {
+        "A": 185,
+        "B": 27
+      }
+    ],
+    [
+      "old spice",
+      {
+        "A": 122,
+        "B": 86
+      }
+    ],
+    [
+      "olay",
+      {
+        "A": 105,
+        "B": 94
+      }
+    ],
+    [
+      "pampers",
+      {
+        "A": 106,
+        "B": 92
+      }
+    ],
+    [
+      "glade",
+      {
+        "A": 105,
+        "B": 90
+      }
+    ],
+    [
+      "kraft",
+      {
+        "A": 138,
+        "B": 57
+      }
+    ],
+    [
+      "m and m s",
+      {
+        "A": 80,
+        "B": 107
+      }
+    ],
+    [
+      "russell stover",
+      {
+        "A": 78,
+        "B": 108
+      }
+    ],
+    [
+      "peeps",
+      {
+        "A": 142,
+        "B": 40
+      }
+    ],
+    [
+      "crest",
+      {
+        "A": 98,
+        "B": 80
+      }
+    ],
+    [
+      "ghirardelli",
+      {
+        "A": 78,
+        "B": 100
+      }
+    ],
+    [
+      "febreze",
+      {
+        "A": 114,
+        "B": 63
+      }
+    ],
+    [
+      "hp",
+      {
+        "A": 173,
+        "B": 1
+      }
+    ],
+    [
+      "native",
+      {
+        "A": 84,
+        "B": 88
+      }
+    ],
+    [
+      "star wars",
+      {
+        "A": 168,
+        "B": 3
+      }
+    ],
+    [
+      "starbucks",
+      {
+        "A": 68,
+        "B": 102
+      }
+    ],
+    [
+      "sally hansen",
+      {
+        "A": 53,
+        "B": 116
+      }
+    ],
+    [
+      "betty crocker",
+      {
+        "A": 106,
+        "B": 63
+      }
+    ],
+    [
+      "colgate",
+      {
+        "A": 97,
+        "B": 70
+      }
+    ],
+    [
+      "campbell s",
+      {
+        "A": 40,
+        "B": 127
+      }
+    ],
+    [
+      "pepperidge farm",
+      {
+        "A": 40,
+        "B": 126
+      }
+    ],
+    [
+      "secret",
+      {
+        "A": 129,
+        "B": 36
+      }
+    ],
+    [
+      "cerave",
+      {
+        "A": 80,
+        "B": 82
+      }
+    ],
+    [
+      "manischewitz",
+      {
+        "A": 23,
+        "B": 132
+      }
+    ],
+    [
+      "chobani",
+      {
+        "A": 36,
+        "B": 118
+      }
+    ],
+    [
+      "quest",
+      {
+        "A": 14,
+        "B": 139
+      }
+    ],
+    [
+      "paw patrol",
+      {
+        "A": 147,
+        "B": 5
+      }
+    ],
+    [
+      "blue buffalo",
+      {
+        "A": 94,
+        "B": 57
+      }
+    ],
+    [
+      "crayola",
+      {
+        "A": 142,
+        "B": 9
+      }
+    ],
+    [
+      "beech nut",
+      {
+        "A": 86,
+        "B": 64
+      }
+    ],
+    [
+      "ge",
+      {
+        "A": 99,
+        "B": 49
+      }
+    ],
+    [
+      "arm and hammer",
+      {
+        "A": 85,
+        "B": 61
+      }
+    ],
+    [
+      "sheamoisture",
+      {
+        "A": 127,
+        "B": 18
+      }
+    ],
+    [
+      "gatorade",
+      {
+        "A": 85,
+        "B": 57
+      }
+    ],
+    [
+      "quaker",
+      {
+        "A": 74,
+        "B": 66
+      }
+    ],
+    [
+      "clorox",
+      {
+        "A": 120,
+        "B": 19
+      }
+    ],
+    [
+      "bob s red mill",
+      {
+        "A": 43,
+        "B": 93
+      }
+    ],
+    [
+      "gillette",
+      {
+        "A": 83,
+        "B": 52
+      }
+    ],
+    [
+      "bic",
+      {
+        "A": 94,
+        "B": 41
+      }
+    ],
+    [
+      "pantene",
+      {
+        "A": 60,
+        "B": 74
+      }
+    ],
+    [
+      "garnier",
+      {
+        "A": 74,
+        "B": 57
+      }
+    ],
+    [
+      "boiron",
+      {
+        "A": 65,
+        "B": 66
+      }
+    ],
+    [
+      "oreo",
+      {
+        "A": 65,
+        "B": 64
+      }
+    ],
+    [
+      "welch s",
+      {
+        "A": 87,
+        "B": 40
+      }
+    ],
+    [
+      "fancy feast",
+      {
+        "A": 70,
+        "B": 56
+      }
+    ],
+    [
+      "oral b",
+      {
+        "A": 62,
+        "B": 64
+      }
+    ],
+    [
+      "frankford",
+      {
+        "A": 120,
+        "B": 4
+      }
+    ],
+    [
+      "huggies",
+      {
+        "A": 97,
+        "B": 26
+      }
+    ],
+    [
+      "polar",
+      {
+        "A": 6,
+        "B": 116
+      }
+    ],
+    [
+      "vicks",
+      {
+        "A": 43,
+        "B": 79
+      }
+    ],
+    [
+      "kiss",
+      {
+        "A": 94,
+        "B": 28
+      }
+    ],
+    [
+      "sharpie",
+      {
+        "A": 111,
+        "B": 9
+      }
+    ],
+    [
+      "gorilla",
+      {
+        "A": 105,
+        "B": 15
+      }
+    ],
+    [
+      "conair",
+      {
+        "A": 86,
+        "B": 34
+      }
+    ],
+    [
+      "aveeno",
+      {
+        "A": 55,
+        "B": 64
+      }
+    ],
+    [
+      "always",
+      {
+        "A": 74,
+        "B": 44
+      }
+    ],
+    [
+      "sonic",
+      {
+        "A": 116,
+        "B": 1
+      }
+    ],
+    [
+      "simply organic",
+      {
+        "A": 33,
+        "B": 83
+      }
+    ],
+    [
+      "american greetings",
+      {
+        "A": 29,
+        "B": 87
+      }
+    ],
+    [
+      "tree hut",
+      {
+        "A": 84,
+        "B": 31
+      }
+    ],
+    [
+      "aura cacia",
+      {
+        "A": 18,
+        "B": 97
+      }
+    ],
+    [
+      "utz",
+      {
+        "A": 69,
+        "B": 45
+      }
+    ],
+    [
+      "entenmann s",
+      {
+        "A": 95,
+        "B": 17
+      }
+    ],
+    [
+      "nature made",
+      {
+        "A": 58,
+        "B": 54
+      }
+    ],
+    [
+      "dr scholl s",
+      {
+        "A": 69,
+        "B": 42
+      }
+    ],
+    [
+      "scotch",
+      {
+        "A": 95,
+        "B": 16
+      }
+    ],
+    [
+      "duncan hines",
+      {
+        "A": 59,
+        "B": 50
+      }
+    ],
+    [
+      "haribo",
+      {
+        "A": 62,
+        "B": 46
+      }
+    ],
+    [
+      "cetaphil",
+      {
+        "A": 47,
+        "B": 60
+      }
+    ],
+    [
+      "friskies",
+      {
+        "A": 71,
+        "B": 36
+      }
+    ],
+    [
+      "burt s bees",
+      {
+        "A": 42,
+        "B": 64
+      }
+    ],
+    [
+      "traditional medicinals",
+      {
+        "A": 50,
+        "B": 55
+      }
+    ],
+    [
+      "method",
+      {
+        "A": 46,
+        "B": 58
+      }
+    ],
+    [
+      "celsius",
+      {
+        "A": 27,
+        "B": 77
+      }
+    ],
+    [
+      "kind",
+      {
+        "A": 20,
+        "B": 81
+      }
+    ],
+    [
+      "sour patch kids",
+      {
+        "A": 76,
+        "B": 25
+      }
+    ]
+  ]
+}

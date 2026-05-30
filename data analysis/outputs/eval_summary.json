@@ -1,0 +1,161 @@
+{
+  "n": 97,
+  "json_valid_rate": 0.9794,
+  "match_type_accuracy": 0.8737,
+  "is_match_accuracy": 0.8632,
+  "binary": {
+    "tp": 29,
+    "fp": 3,
+    "fn": 10,
+    "tn": 53,
+    "precision": 0.9062,
+    "recall": 0.7436,
+    "f1": 0.8169
+  },
+  "latency": {
+    "p50_s": 1.048,
+    "p90_s": 4.348,
+    "p99_s": 74.438,
+    "n": 95
+  },
+  "tokens": {
+    "prompt_total": 40711,
+    "completion_total": 4350,
+    "reasoning_total": 0,
+    "avg_prompt_per_pair": 419.7,
+    "avg_completion_per_pair": 44.8
+  },
+  "cost_estimate_usd": {
+    "total_for_eval_set": 0.003776,
+    "per_pair": 3.9e-05,
+    "projected_10k_pairs": 0.3892,
+    "pricing_basis": "$0.05/M prompt + $0.4/M completion (public gpt-5-nano ballpark)"
+  },
+  "per_stratum": [
+    {
+      "stratum": "A_borderline",
+      "n": 3,
+      "match_type_accuracy": 1.0,
+      "label_positive_rate": 0.333,
+      "model_positive_rate": 0.333,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "stratum": "A_low_score",
+      "n": 5,
+      "match_type_accuracy": 1.0,
+      "label_positive_rate": 0.0,
+      "model_positive_rate": 0.0,
+      "precision": null,
+      "recall": null
+    },
+    {
+      "stratum": "A_medium",
+      "n": 20,
+      "match_type_accuracy": 1.0,
+      "label_positive_rate": 0.05,
+      "model_positive_rate": 0.05,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "stratum": "A_private_high",
+      "n": 10,
+      "match_type_accuracy": 0.6,
+      "label_positive_rate": 0.7,
+      "model_positive_rate": 0.5,
+      "precision": 0.8,
+      "recall": 0.571
+    },
+    {
+      "stratum": "A_private_mid",
+      "n": 10,
+      "match_type_accuracy": 1.0,
+      "label_positive_rate": 0.0,
+      "model_positive_rate": 0.0,
+      "precision": null,
+      "recall": null
+    },
+    {
+      "stratum": "A_strong",
+      "n": 18,
+      "match_type_accuracy": 0.944,
+      "label_positive_rate": 1.0,
+      "model_positive_rate": 0.944,
+      "precision": 1.0,
+      "recall": 0.944
+    },
+    {
+      "stratum": "H_hand",
+      "n": 10,
+      "match_type_accuracy": 0.9,
+      "label_positive_rate": 0.3,
+      "model_positive_rate": 0.2,
+      "precision": 1.0,
+      "recall": 0.667
+    },
+    {
+      "stratum": "T_strong_tfidf",
+      "n": 9,
+      "match_type_accuracy": 0.556,
+      "label_positive_rate": 0.889,
+      "model_positive_rate": 0.444,
+      "precision": 1.0,
+      "recall": 0.5
+    },
+    {
+      "stratum": "T_weak_tfidf",
+      "n": 10,
+      "match_type_accuracy": 0.8,
+      "label_positive_rate": 0.1,
+      "model_positive_rate": 0.2,
+      "precision": 0.0,
+      "recall": 0.0
+    }
+  ],
+  "confidence_calibration": [
+    {
+      "band": "0.00-0.50",
+      "n": 1,
+      "empirical_precision": 0.0
+    },
+    {
+      "band": "0.50-0.70",
+      "n": 0,
+      "empirical_precision": null
+    },
+    {
+      "band": "0.70-0.85",
+      "n": 6,
+      "empirical_precision": 0.667
+    },
+    {
+      "band": "0.85-0.95",
+      "n": 12,
+      "empirical_precision": 1.0
+    },
+    {
+      "band": "0.95-1.01",
+      "n": 13,
+      "empirical_precision": 1.0
+    }
+  ],
+  "confusion_matrix": {
+    "exact_national_brand": {
+      "exact_national_brand": 24,
+      "no_match": 1,
+      "private_label_equivalent": 0
+    },
+    "no_match": {
+      "exact_national_brand": 7,
+      "no_match": 54,
+      "private_label_equivalent": 3
+    },
+    "private_label_equivalent": {
+      "exact_national_brand": 0,
+      "no_match": 1,
+      "private_label_equivalent": 5
+    }
+  }
+}

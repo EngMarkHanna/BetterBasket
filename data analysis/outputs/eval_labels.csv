@@ -1,0 +1,98 @@
+pair_id,label_match_type,label_is_match,label_confidence,label_notes
+P0000,exact_national_brand,True,1.00,Identical product name brand and 50ct size
+P0001,exact_national_brand,True,1.00,Identical Pillsbury banana bread mix 14oz
+P0002,exact_national_brand,True,1.00,Identical Violife cream cheese 8oz
+P0003,exact_national_brand,True,1.00,Identical Cantu Shea Butter Leave-In 16oz
+P0004,exact_national_brand,True,1.00,Identical Serenity Kids puffs 1.5oz cheddar cauliflower spinach
+P0005,exact_national_brand,True,1.00,Identical Maybelline Age Rewind concealer shade 120 0.2 fl oz
+P0006,exact_national_brand,True,1.00,Identical Revlon Super Lustrous Glass Shine lip balm shade 005
+P0007,exact_national_brand,True,1.00,Identical Aveeno Brightening Scrub 5oz
+P0008,exact_national_brand,True,0.85,A is 4-pack of 20-count Celestial Lemon Zinger tea bags; B is single 20ct; same per-unit SKU
+P0009,exact_national_brand,True,1.00,Identical McCormick ground black pepper 6oz
+P0010,exact_national_brand,True,1.00,Identical Violife Mexican Style shreds 8oz
+P0011,exact_national_brand,True,0.85,A is 2-pack of Burts Bees Peach Willow pore scrub 4oz; B is single; same per-unit SKU
+P0012,exact_national_brand,True,1.00,Identical Dove Men+Care Clinical Clean Comfort 1.7oz
+P0013,exact_national_brand,True,1.00,Identical Siete Fuego kettle chips 5.5oz
+P0014,exact_national_brand,True,1.00,Identical Goya Palmeritas cookies 5.82oz
+P0015,exact_national_brand,True,1.00,Identical Sure 48Hr Original Solid Regular antiperspirant 2.7oz
+P0016,exact_national_brand,True,1.00,Identical Secret Clinical Dry Spray Completely Clean 3.8oz
+P0017,exact_national_brand,True,1.00,Identical Campbells Gluten Free Cream of Chicken soup 10.5oz
+P0018,exact_national_brand,True,0.85,A is 3-pack of Secret Outlast Clear Gel Protecting Powder 2.6oz; B is single; same per-unit SKU
+P0019,exact_national_brand,True,1.00,Identical Manischewitz Extra Moist Coffee Cake Mix 13oz
+P0020,private_label_equivalent,True,1.00,Both private label frozen pearl onions 12oz
+P0021,private_label_equivalent,True,1.00,Both private label tomato paste 6oz
+P0022,no_match,False,0.85,GV is Apple Cinnamon flavor; Wegmans is generic pancake mix - flavor differs
+P0023,no_match,False,0.80,GV is Organic AND No Salt Added; Wegmans is conventional petite diced - both organic and sodium differ
+P0024,no_match,False,0.85,GV is Diet Lime flavor; Wegmans is plain tonic - flavor differs
+P0025,private_label_equivalent,True,1.00,Both private label frozen sliced strawberries with sugar 16oz
+P0026,private_label_equivalent,True,1.00,Both private label blueberry mini muffins 12oz
+P0027,private_label_equivalent,True,1.00,Both private label organic tomato sauce 15oz
+P0028,private_label_equivalent,True,1.00,Both private label low-moisture part-skim shredded mozzarella 8oz
+P0029,private_label_equivalent,True,0.95,Both sharp white cheddar 8oz; A specifies block form B unspecified
+P0030,no_match,False,0.95,Rice cereal vs graham cereal - different grain base
+P0031,no_match,False,1.00,Sprinkles vs udon noodles - completely different categories
+P0032,no_match,False,1.00,Beauty moisturizing cream vs dairy sour cream - cross domain
+P0033,no_match,False,0.95,3 Cheese pasta sauce vs mushroom sauce - different flavor and use
+P0034,no_match,False,1.00,Spring mix salad vs Campanelle pasta - different categories
+P0035,no_match,False,1.00,Laundry hamper vs peanut butter dippers - cross domain
+P0036,no_match,False,0.90,Both pasta but elbow vs ziti and A is gluten free
+P0037,no_match,False,0.95,Toasted Os (oats) vs Corn Flakes - different grain
+P0038,no_match,False,0.85,Adult flushable wipes coconut scent vs baby wipes thick sensitive
+P0039,no_match,False,0.95,Dark chocolate with almonds 4-pack vs caramel egg - different products
+P0040,no_match,False,0.95,Knee sleeve L/XL vs wrist brace S/M - different body part and size
+P0041,no_match,False,1.00,Reeses Puffs cereal mega vs Reeses Eggs Easter candy - completely different products
+P0042,no_match,False,1.00,Cinnamon sugar baking spice vs Grill Mates Montreal Steak savory seasoning
+P0043,no_match,False,0.75,Sensodyne Pronamel Intensive Enamel Repair vs Sensitivity Gum & Enamel Fluoride Mint - different SKUs in same product line
+P0044,no_match,False,0.85,Culture Pop Orange Mango 12pk vs Orange Mango & Lime 4pk - different flavor and pack count
+P0045,no_match,False,0.90,Q-Tips 30ct travel pack of 12 vs 500ct single - completely different format
+P0046,no_match,False,0.95,Synergy Kombucha Gingerberry vs Island Bliss - different flavor
+P0047,no_match,False,1.00,Tide Pods (solid) vs Tide liquid detergent - different form
+P0048,no_match,False,0.85,Breakstones Cottage Doubles strawberry topping vs pineapple - different fruit
+P0049,no_match,False,0.95,Armour Jalapeno Vienna Sausage vs Sliced Dried Beef - different products
+P0050,no_match,False,0.75,Blue Buffalo Homestyle Senior Beef and Chicken vs Blues Stew Hearty Beef Stew - different recipes
+P0051,exact_national_brand,True,1.00,Identical Temptations Tasty Chicken cat treats 30oz
+P0052,no_match,False,0.55,Tommee Tippee NightGlow vs Night Time Orthodontic pacifier 18-36mo 2-pack - likely different SKUs in same line
+P0053,no_match,False,0.95,Hershey gift bar 3lb vs Hershey Party Mix assortment 48oz - different products and formats
+P0054,no_match,False,1.00,Libbys cut beets vs Libbys cherry mixed fruit - completely different
+P0055,no_match,False,0.95,Dr Teals Pomegranate Black Currant vs Black Elderberry - different fragrance
+P0056,no_match,False,0.95,Goody hair ties vs hair bows - different accessory
+P0057,no_match,False,0.85,Cortes chocolate drink mix 12oz vs Cortes chocolate 7oz - different sizes and possibly different products
+P0058,no_match,False,0.95,Premier Protein Caramel shake vs Vanilla - different flavor
+P0059,no_match,False,0.95,Nongshim Gochujang Ramyun 4.7oz vs Bowl Noodles Spicy Kimchi 3.03oz - different products
+P0060,no_match,False,1.00,Breakstones salted butter vs sour cream - different dairy products
+P0061,exact_national_brand,True,0.65,Palmers Coconut Oil Body Lotion 8.5oz - A says for Dry Skin B says Daily Coconut Hydrate; likely same SKU rebranded
+P0062,no_match,False,0.80,KC Masterpiece Original 18oz vs Original Kettle Cooked 28oz - different sub-product and size
+P0063,no_match,False,0.85,Nioxin System 4 Treatment vs Scalp Therapy Conditioner Fine Hair 4 - different products in System 4 line
+P0064,no_match,False,0.95,Smirnoff Ice Grape vs Orange Cream - different flavor
+P0065,no_match,False,0.80,Louisiana Fish Fry Cajun vs Seafood Breading Mix New Orleans Style Fish Fry - different sub-variants
+P0066,no_match,False,0.95,Kit Kat snack size 32oz bag vs King Size 3oz bar - completely different formats
+P0067,no_match,False,0.95,Utz Butter Sticks vs Pumpernickel Sticks pretzels - different flavor
+P0068,no_match,False,0.85,Lays BBQ 2.75oz vs Lays BBQ 7.75oz - same product but very different sizes/SKUs
+P0069,exact_national_brand,True,0.85,OGX Clarifying Strength Rosemary Mint shampoo - both same product
+P0070,exact_national_brand,True,1.00,Identical Maybelline Lash Sensational Luscious Waterproof mascara Very Black
+P0071,exact_national_brand,True,1.00,Identical Jell-O Cook & Serve Vanilla Pudding & Pie Filling
+P0072,exact_national_brand,True,0.95,Nature Valley Sweet & Salty Nut Almond Granola Bars - same product
+P0073,exact_national_brand,True,0.85,Diet Pepsi Cola 12pk 12oz cans - same product
+P0074,exact_national_brand,True,0.90,Dove Beauty Bar Original 3.75oz - same product
+P0075,exact_national_brand,True,0.95,Green Giant Simply Steam Broccoli Cauliflower Carrots Cheese Sauce - same product
+P0076,exact_national_brand,True,0.95,Folgers Black Silk Dark Roast ground coffee - same product
+P0077,no_match,False,1.00,Great Value Stack Attack BBQ crisps vs Lays Baked BBQ crisps - different brands
+P0078,no_match,False,0.90,San Giorgio national brand jumbo shells vs Wegmans private label - cross brand tier
+P0079,exact_national_brand,True,0.80,Black Box Malbec wine - same product
+P0080,no_match,False,0.65,CoverGirl TruBlend Pressed Powder Translucent Fair vs Mineral Translucent Fair - different formulation
+P0081,no_match,False,0.95,Body Fantasies Twilight Mist vs White Musk - different fragrance
+P0082,no_match,False,0.90,Smuckers Sugar Free Seedless Blackberry vs regular Seedless Blackberry - different formulation
+P0083,no_match,False,1.00,Hallmark vs Papyrus greeting cards - different brands
+P0084,no_match,False,1.00,L.A. Colors vs Essie nail polish - different brands
+P0085,no_match,False,1.00,Kinder Easter Mini Eggs vs 100 Grand Minis - different brands
+P0086,no_match,False,0.70,Conair Infinitipro Tourmaline vs Conair Double Ceramic curling iron - different model lines
+P0087,no_match,False,1.00,Tool set vs deli ham - cross domain
+P0088,no_match,False,1.00,Action figure toy vs whole milk - cross domain
+P0089,no_match,False,0.95,M&Ms Peanut Butter vs Milk Chocolate - different flavor
+P0090,no_match,False,0.95,Ocean Spray Cranberry Apple vs Cranberry Pomegranate - different flavor
+P0091,no_match,False,0.90,Q-Tips 30ct travel vs 500ct - different format and SKU
+P0092,exact_national_brand,True,0.60,Betty Crocker Chocolate Fudge Cake Mix - A 15.25oz vs B 13.25oz; likely same product different production runs
+P0093,private_label_equivalent,True,1.00,GV Organic Tomato Sauce 8oz vs Wegmans Organic Tomato Sauce 8oz - canonical private label match
+P0094,no_match,False,1.00,GV conventional whole milk vs Organic Valley organic whole milk - different value tier and organic status
+P0095,no_match,False,0.95,Heinz conventional Tomato Ketchup vs Heinz Organic - different SKU
+P0096,exact_national_brand,True,1.00,LOreal Paris True Match Foundation Natural Beige vs LOreal True Match - same product brand alias
